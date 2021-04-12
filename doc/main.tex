@@ -26,9 +26,9 @@ This section will contain an abstract once we have confirmed the nature of our p
 And this text here is to make sure the narrower column specified by the Abstract environment has returned to normal. Looking good.
 
 \section{Task Description}
-The primary task of this project is to implement a regression model to predict the degree of humor of brief news headlines, using data from the Humicroedit data set. This data set contains the text of news headlines in which one word has been edited to change a serious headline into a humorous one. All headlines are marked with the word that was replaced, the new word that was put in its place, and a decimal score between 0 (not funny) and 3 (very funny), obtained by taking the average score given by five human judges. The description of this task and its dataset can be found \href{https://competitions.codalab.org/competitions/20970}{here}.
+The primary task of this project is to implement a regression model to predict the degree of humor of brief news headlines, using data from the Humicroedit data set. This data set contains the text of news headlines in which one word has been edited to change a serious headline into a humorous one. All training instances contain the full text of the headline, the word that was replaced, the new word that was put in its place, and a decimal score between 0 (not funny) and 3 (very funny), obtained by taking the average score given by five human judges. The description of this task and its dataset can be found \href{https://competitions.codalab.org/competitions/20970}{here}.\cite{hossain-etal-2019-president}
 
-The adaptation task we plan to complete is to apply a similar model to tweets, where we will predict the humor content of tweets according to the same scale and, by employing a time-series clustering algorithm, explore the correlation of the frequency of humorous posts on social media to certain periods of time.
+The adaptation task we plan to complete is to apply a similar model, trained on both the original and edited headlines referenced above, to tweets. The goal is to predict the humor content of tweets according to the same scale and, by employing a time-series clustering algorithm, explore the correlation of the frequency of humorous posts on social media to certain periods of time.
 
 \section{System Overview}
 
@@ -40,6 +40,6 @@ The adaptation task we plan to complete is to apply a similar model to tweets, w
 
 \section{References}
 
-\bibliography{N19-1012}
+\bibliography{refs}
 
 \end{document}
