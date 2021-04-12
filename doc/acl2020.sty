@@ -350,6 +350,7 @@
 \def\leftoffset{-2.1cm} %original: -45pt
 \def\rightoffset{17.5cm} %original: 500pt
 \ifaclfinal\else\pagenumbering{arabic}
+\fi % I put this line in to get rid of an error message and fix the formatting, and I think it worked. -Blackburn 4/12
 \AddToShipoutPicture{%
 \ifaclfinal\else
 \AtPageLowishCenter{\textcolor{black}{\thepage}}
