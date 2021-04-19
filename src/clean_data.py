@@ -42,12 +42,19 @@ class Headline:
                     # id = -x, it's the original version of the same headline
 
 
-all_headlines = {}
+def make_dict_from(data_frame):
+    # return a dictionary with all processed/cleaned headlines from input file
+    # as headline objects
+    
+    all_headlines = {}
+    df_rows = len(df.axes[0])
+    for row in range(df_rows):
+        hl_edited = Headline(df, row, edited_version=True)
+        hl_orig = Headline(df, row, edited_version=False)
+        all_headlines[hl_edited.id] = hl_edited
+        all_headlines[hl_orig.id] = hl_orig
+    
+    return all_headlines
 
-# from each row, add the edited and unedited versions to the dict with their
-# id's as keys: positive id's are edited, negative id's are original
-for row in range(df_rows):
-    hl_edited = Headline(df, row, edited_version=True)
-    hl_orig = Headline(df, row, edited_version=False)
-    all_headlines[hl_edited.id] = hl_edited
-    all_headlines[hl_orig.id] = hl_orig
+
+make_dict_from(df)
