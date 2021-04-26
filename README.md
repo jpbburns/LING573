@@ -8,7 +8,7 @@ Repository for LING573 coursework.
 # pip install -r requirements.txt
 
 # To rerun training:
-# ptyhon main.py --train
+# python main.py --train
 
 # To run to and generate output with scores:
 # python main.py
