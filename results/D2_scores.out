@@ -1,0 +1,8 @@
+Result: 
+Baseline: 0.57471
+Task RMSE results:
+epochs       batch=32       batch=16        batch=8        batch=4
+1 epoch      0.57786        0.53805        0.55925        0.55566
+2 epochs     0.53147        0.57232         0.5314        0.56431
+3 epochs     0.53969        0.54628        0.54719        0.53685
+4 epochs     0.56705        0.54035        0.56932        0.54484
