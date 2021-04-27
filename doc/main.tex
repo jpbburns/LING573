@@ -32,7 +32,27 @@ The adaptation task we plan to complete is to apply a similar model, trained on 
 
 \section{System Overview}
 
+We have chosen to interpret the primary task as a regression problem, using a bidirectional encoder representation from transformers (BERT) model to predict the humor content of edited headlines.
+
+This model consists essentially of a series of transformer encoders which takes embeddings of labeled headlines as its input and generates a predictied humor score for each instance. The task will be completed by generating pretrained models and then proceeding to a fine-tuning phase to improve performance.
+
+To complete the pretraining phase, sixteen distinct models were generated from embeddings of the labeled training instances, by varying the number of training epochs from one to four, and employing batch sizes of 4, 8, 16, and 32 instances. A root mean square error is employed as the loss function.
+
 \section{Results}
+
+Below is a table of the RMSE results for the sixteen combinations of epochs and batch size.
+
+results for subtask1:
+baseline: 0.57471
+BERT single regressor:
+task A RMSE results:
+epochs    batch=32    batch=16    batch=8    bach=4
+1epochs    0.54199    0.54312    0.53396    0.53438
+2epochs    0.53324    0.54381    0.5383    0.54047
+3epochs    0.54728    0.54737    0.56014    0.55393
+4epochs    0.55964    0.55747    0.56742    0.56569
+
+As shown, the best result we have obtained from this initial run is from 2 epochs and a batch size of 32.
 
 \section{Discussion}
 
