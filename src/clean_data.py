@@ -40,7 +40,21 @@ class Headline:
                     # this is to force unique dict keys for the two versions
                     # of each headline: if id = x, it's the edited version; if
                     # id = -x, it's the original version of the same headline
+        
+        self.bigrams = self.get_ngrams(n=2)
+        self.trigrams = self.get_ngrams(n=3)
+    
+    
+    def get_ngrams(self, n=2):
+        # n=2 will generate bigrams, n=3 will generate trigrams, etc
 
+        ngram_out = []                
+        bos, eos = ['BOS' for i in range(n-1)], ['EOS' for i in range(n-1)]
+        ngram_list = bos + self.unigrams + eos
+        for i in range(len(ngram_list)-(n-1)):
+            ngram_out.append(ngram_list[i:i+n])
+        return ngram_out
+        
 
 def make_dict_from(data_frame):
     # return a dictionary with all processed/cleaned headlines from input file
