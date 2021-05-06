@@ -30,17 +30,22 @@ class Headline:
         # (we assume the original headlines are 'not funny')
         
         for i in range(len(self.unigrams)):
-            if self.unigrams[i][0] == '<' and self.unigrams[i][-2:] == '/>':
-                if edited_version:
-                    self.unigrams[i] = self.edit
-                else:
-                    self.unigrams[i] = self.unigrams[i][1:-2]
-                    self.meanGrade = 0.0
-                    self.id = -self.id  
-                    # this is to force unique dict keys for the two versions
-                    # of each headline: if id = x, it's the edited version; if
-                    # id = -x, it's the original version of the same headline
-        
+            if self.unigrams[i][0] == '<':
+                    span_start = i
+            if self.unigrams[i][-1] == '>':
+                    span_end = i
+                    
+        if edited_version:
+            self.unigrams[span_start:span_end+1] = [self.edit]
+        else:
+            self.unigrams[span_start] = self.unigrams[span_start][1:]
+            self.unigrams[span_end] = self.unigrams[span_end][:-2]
+            self.meanGrade = 0.0
+            self.id = -self.id  
+            # this is to force unique dict keys for the two versions
+            # of each headline: if id = x, it's the edited version; if
+            # id = -x, it's the original version of the same headline
+    
         self.bigrams = self.get_ngrams(n=2)
         self.trigrams = self.get_ngrams(n=3)
     
