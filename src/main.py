@@ -124,7 +124,7 @@ class SingleBert:
         for step, batch in enumerate(load_data):
             batch_ids, batch_mask, batch_types, batch_lbls = tuple((t.to(self.device) for t in batch))
             with torch.no_grad():
-                outputs = self.model(input_ids=batch_ids, token_type_ids=batch_types, attention_mask=batch_mask)
+                outputs = self.model(input_ids=batch_ids, token_type_ids=batch_types, attention_mask=batch_mask, output_hidden_states=True)
 
             ipdb.set_trace()
             hidden = outputs[1]
