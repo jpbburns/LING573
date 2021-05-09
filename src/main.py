@@ -23,6 +23,8 @@ from torch.utils.data import TensorDataset, DataLoader
 from transformers import BertModel, BertTokenizer, BertForSequenceClassification
 from transformers import AdamW, get_linear_schedule_with_warmup
 
+import ipdb
+
 class SingleBert:
 
     def __init__(self, model_name='bert-base-cased', max_len=256):
@@ -31,14 +33,17 @@ class SingleBert:
         self.model = BertForSequenceClassification.from_pretrained(model_name, num_labels=1).to(self.device)
         self.max_len = max_len
 
-    def tune(self, epochs=1, bs=16):
-
+    def get_training_data(self, bs=16):
         ts, tl = DataProcessor('../data/subtask-1/train.csv').read_data()
-        vs, vl = DataProcessor('../data/subtask-1/dev.csv').read_data()
+        vs, vl = DataProcessor('../data/subtask-1/dev.csv').read_data()        
         s, l = ts + vs, tl + vl
         t_ids, t_masks, t_types = (torch.tensor(x) for x in get_ids(s, self.tokenizer, max_len=self.max_len))
         load_data = DataLoader(TensorDataset(t_ids, t_masks, t_types, torch.tensor(l)), shuffle=True, batch_size=bs)
+        return load_data
 
+    def tune(self, epochs=1, bs=16):
+
+        load_data = self.get_training_data(bs=bs)
         adam_op = AdamW(self.model.parameters(), lr=2e-05, eps=1e-08)
         steps = len(load_data) * epochs
         scheduler = get_linear_schedule_with_warmup(adam_op, num_warmup_steps=0, num_training_steps=steps)
@@ -106,6 +111,27 @@ class SingleBert:
             pred.extend(logits)
         
         return pred
+
+    def get_embeddings(self, pretrained=None, bs=16):
+        pre_t = '{0}/pretrained/{1}/{2}'.format(os.getcwd(), 'single', pretrained)
+        pre_t_model = torch.load(pre_t, map_location=self.device)
+        self.model.load_state_dict(pre_t_model)
+        self.model.eval()
+        load_data = self.get_training_data()
+
+        embeddings = []
+        labels = []
+        for step, batch in enumerate(load_data):
+            batch_ids, batch_mask, batch_types, batch_lbls = tuple((t.to(self.device) for t in batch))
+            with torch.no_grad():
+                outputs = self.model(input_ids=batch_ids, token_type_ids=batch_types, attention_mask=batch_mask)
+
+            ipdb.set_trace()
+            hidden = outputs[1]
+            embeddings.extend(hidden)
+            labels.extend(batch_lbls)
+
+        return embeddings, labels
 
     def balance(self, num):
         arr = np.linspace(0, 3, 16)
