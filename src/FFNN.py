@@ -309,9 +309,9 @@ class FineTune():
 
 		# Print output predictions along with true label and original sentence
 		# to unique csv file in outputs
-		output_data = pd.DataFrame({'sent':sentences, 'actual':labels,'pred':pred})
-		output_name = "output_{}epochs_{}bs_{}lr_{}drop_{}hl.csv".format(epochs, bs, lr, drop, model_num)
-		output_data.to_csv('../outputs/D3/{}'.format(output_name), index=False)
+		#output_data = pd.DataFrame({'sent':sentences, 'actual':labels,'pred':pred})
+		#output_name = "output_{}epochs_{}bs_{}lr_{}drop_{}hl.csv".format(epochs, bs, lr, drop, model_num)
+		#output_data.to_csv('../outputs/D3/{}'.format(output_name), index=False)
 
 		# Calculate RMSE
 		rmse = np.sqrt(np.mean((np.array(labels) - np.array(pred)) ** 2))
