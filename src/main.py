@@ -33,15 +33,12 @@ class SingleBert:
         self.model = BertForSequenceClassification.from_pretrained(model_name, num_labels=1).to(self.device)
         self.max_len = max_len
 
-    def get_training_data(self, bs=16):
+    def tune(self, epochs=1, bs=16):
         ts, tl = DataProcessor('../data/subtask-1/train.csv').read_data()
         vs, vl = DataProcessor('../data/subtask-1/dev.csv').read_data()        
         s, l = ts + vs, tl + vl
         t_ids, t_masks, t_types = (torch.tensor(x) for x in get_ids(s, self.tokenizer, max_len=self.max_len))
         load_data = DataLoader(TensorDataset(t_ids, t_masks, t_types, torch.tensor(l)), shuffle=True, batch_size=bs)
-        return load_data
-
-    def tune(self, epochs=1, bs=16):
 
         load_data = self.get_training_data(bs=bs)
         adam_op = AdamW(self.model.parameters(), lr=2e-05, eps=1e-08)
@@ -97,7 +94,7 @@ class SingleBert:
         
         if pretrained:
             self.model.load_state_dict(torch.load(
-                    '{0}/pretrained/{1}/{2}'.format(os.getcwd(), 'single', pretrained)))
+                    '{0}/pretrained/{1}/{2}'.format(os.getcwd(), 'single', pretrained), map_location=self.device))
         self.model.eval()
 
         pred = []
@@ -111,27 +108,6 @@ class SingleBert:
             pred.extend(logits)
         
         return pred
-
-    def get_embeddings(self, pretrained=None, bs=16):
-        pre_t = '{0}/pretrained/{1}/{2}'.format(os.getcwd(), 'single', pretrained)
-        pre_t_model = torch.load(pre_t, map_location=self.device)
-        self.model.load_state_dict(pre_t_model)
-        self.model.eval()
-        load_data = self.get_training_data()
-
-        embeddings = []
-        labels = []
-        for step, batch in enumerate(load_data):
-            batch_ids, batch_mask, batch_types, batch_lbls = tuple((t.to(self.device) for t in batch))
-            with torch.no_grad():
-                outputs = self.model(input_ids=batch_ids, token_type_ids=batch_types, attention_mask=batch_mask, output_hidden_states=True)
-
-            ipdb.set_trace()
-            hidden = outputs[1]
-            embeddings.extend(hidden)
-            labels.extend(batch_lbls)
-
-        return embeddings, labels
 
     def balance(self, num):
         arr = np.linspace(0, 3, 16)
@@ -155,6 +131,41 @@ class SingleBert:
         
         return round(out, 5)
 
+    # Note: Testing data not shuffled
+    #       We need to maintain the original sentence
+    def get_embeddings(self, pre_t, data_file='test.csv'):
+        embeddings = []
+        labels_batched = []
+
+        # Load Training Data into dataloader
+        sents, labels = DataProcessor('../data/subtask-1/{}'.format(data_file)).read_data()
+        ids, masks, types = (torch.tensor(x) for x in get_ids(sents, self.tokenizer, max_len=self.max_len))
+        load_data = DataLoader(TensorDataset(ids, masks, types, torch.tensor(labels)), batch_size=128)
+
+        # Ready pretrained model for extracting embeddings
+        full_pre_t_path = '{0}/pretrained/{1}/{2}'.format(os.getcwd(), 'single', pre_t)
+        pre_t_model = torch.load(full_pre_t_path, map_location=self.device)
+        self.model.load_state_dict(pre_t_model)
+        self.model.eval()
+
+        # Get embeddings one batch at a time
+        for step, batch in enumerate(load_data):
+            batch_ids, batch_mask, batch_types, batch_lbls = tuple((t.to(self.device) for t in batch))
+            with torch.no_grad():
+                outputs = self.model(input_ids=batch_ids, token_type_ids=batch_types, attention_mask=batch_mask, output_hidden_states=True)     
+
+            # Let's use the first 4 layers summed
+            hidden = outputs[1]
+            emb = torch.stack(hidden, dim=0)
+            emb = emb[:4,:,0,:] # 0th token gives embedding of "CLS" token, which should represent the sentence
+            emb = torch.sum(emb, axis=0)
+
+            # Add to each train instance to output
+            embeddings.extend(emb)
+            labels_batched.extend(batch_lbls)
+
+        # Return embeddings, labels
+        return sents, embeddings, labels_batched
 
 class DataProcessor:
 
