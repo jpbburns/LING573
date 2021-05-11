@@ -1,11 +1,29 @@
 # LING573
 Repository for LING573 coursework.
 
+# Deliverable 3
+
+To Run:
+python FFNN.py
+
+To re-extract pretrained embeddings:
+python FFNN.py --extract_pretrained
+
+Pretrained embeddings are saved in the 'src/saved' directory.
+Pretrained BERT files are here (must be placed in the 'src' directory for use):
+https://drive.google.com/drive/folders/1n2QVlrKonIDcNHAD6PlzopQ4EALdcP-z?usp=sharing
+
+The output of our hyperparameter testing is directed to the file locations:
+../results/D3_scores.out & ../outputs/D3/{outputfile_name_for_hyperparameter_test}.out
+
+Best model RMSE & hyperparameters will be printed to the bottom of ../results/D3_scores.out
+
+
 # Deliveralbe 2
 To Run:
 
 Install dependencies:
-ip install -r requirements.txt
+pip install -r requirements.txt
 
 To rerun training:
 python main.py --train
