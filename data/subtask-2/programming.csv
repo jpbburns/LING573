@@ -1,0 +1,982 @@
+,title,created_utc
+0,"There’s a reason that programmers always want to throw away old code and start over: they think the old code is a mess. They are probably wrong. The reason that they think the old code is a mess is because of a cardinal, fundamental law of programming: It’s harder to read code than to write it.",04-26-2018 09:24:12
+1,YouTube page load is 5x slower in Firefox and Edge than in Chrome because YouTube's Polymer redesign relies on the deprecated Shadow DOM v0 API only implemented in Chrome.,07-24-2018 10:46:57
+2,How I Got Paid $0 From the Uber Security Bug Bounty,12-25-2017 14:08:04
+3,Google wins trial against Oracle as jury finds Android is “fair use”,05-26-2016 16:06:35
+4,"TIL there's a community called ""dwitter"" where people compose 140 character JavaScript programs that produce interesting visuals",12-26-2017 10:05:01
+5,"Eye tracking software for sufferers of ALS/MND can cost tens of thousands of dollars, so I've spent 3.5 years of my spare time writing a free & open-source alternative - meet OptiKey (C#, Rx, WPF) (x-post from r/Software)",09-10-2015 09:04:49
+6,Cool website that explains algorithms as if they are IKEA instruction manuals,03-17-2018 06:49:14
+7,How I cut GTA Online loading times by 70%,02-28-2021 15:57:20
+8,"Linus Torvalds: I think somebody inside of Intel needs to really take a long hard look at their CPU's, and actually admit that they have issues instead of writing PR blurbs that say that everything works as designed.",01-04-2018 04:52:35
+9,Inventor says Google is patenting work he put in the public domain,06-10-2018 16:23:17
+10,GitHub now gives free users unlimited private repositories,01-07-2019 12:25:49
+11,Reddit's main code is no longer open-source.,09-01-2017 16:09:07
+12,How We Built r/Place,04-13-2017 13:35:16
+13,18yo arrested for reporting a bug in the new Budapest e-Ticket system,07-24-2017 09:13:17
+14,Severe flaw in WPA2 protocol leaves Wi-Fi traffic open to eavesdropping,10-16-2017 01:40:25
+15,DeepCreamPy: Decensoring Hentai with Deep Neural Networks,10-29-2018 06:51:49
+16,"20GB leak of Intel data: whole Git repositories, dev tools, backdoor mentions in source code",08-06-2020 15:04:15
+17,Adobe to end-of-life Flash by 2020,07-25-2017 12:05:14
+18,"Yesterday, I used glitches to inject the source code for Flappy Bird into Super Mario World on SNES. Here’s how.",03-28-2016 11:47:00
+19,Microsoft acquires GitHub,06-04-2018 09:05:37
+20,This programmer reverse engineered the Pfizer mRNA vaccine source code,12-25-2020 19:05:10
+21,Mozilla is offering $2 million of you can architect a plan to decentralize the web,06-24-2017 10:29:56
+22,hentAI: Detecting and removing censors with Deep Learning and Image Segmentation,03-06-2020 18:12:08
+23,US Politicians Want to Ban End-to-End Encryption,03-16-2020 08:36:28
+24,The most sophisticated piece of software/code ever written,05-18-2018 09:36:14
+25,"GitHub Protest Over Chinese Tech Companies' ""996"" Culture Goes Viral. ""996"" refers to the idea tech employees should work 9am-9pm 6 days a week. Chinese tech companies really make their employees feel that they own all of their time. Not only while in the office, but also in after hours with WeChat.",03-30-2019 05:21:28
+26,Humanity wastes about 500 years per day on CAPTCHAs. It’s time to end this madness,05-15-2021 12:04:52
+27,"TIL the current hash function for Java strings is of unknown author. In 2004 Joshua Bloch ""went so far as to call up Dennis Ritchie, who said that he did not know where the hash function came from. He walked across the hall and asked Brian Kernighan, who also had no recollection."" [x-post /r/java]",06-12-2017 04:59:57
+28,"Ian Murdock, creator of Debian, has died",12-30-2015 14:03:45
+29,Stack Overflow: Helping One Million Developers Exit Vim,05-23-2017 13:14:29
+30,Bulgaria got a law requiring Open Source for all software written for the government,07-04-2016 10:46:49
+31,Youtube-dl just received a DMCA takedown from RIAA,10-23-2020 15:46:49
+32,Microsoft Is Said to Have Agreed to Acquire Coding Site GitHub,06-03-2018 15:42:43
+33,Is it unethical for me to not tell my employer I’ve automated my job?,06-28-2017 18:09:43
+34,"Telling the Truth About Defects in Technology Should Never, Ever, Ever Be Illegal. EVER.",08-21-2018 08:38:31
+35,"From August, Chrome will start blocking ads that consume 4MB of network data, 15 seconds of CPU usage in any 30 second period, or 60 seconds of total CPU usage",05-14-2020 13:22:41
+36,"We did it Reddit! HTTP Error Code 418 - ""I'm a Teapot"" will not be removed from Node, Go, Asp.net, or Python's Request. The Internet Engineering Task Force is marking HTTP 418 as reserved, cementing ""I'm a Teapot""'s legacy for a long time to come.",08-11-2017 18:03:14
+37,"No, Panera Bread doesn't take security seriously",04-03-2018 07:28:56
+38,Developers who use spaces make more money than those who use tabs - Stack Overflow Blog,06-15-2017 09:22:50
+39,"Why you should not use Google Cloud – This is about the “no-warnings-given, abrupt way” they pull the plug on your entire systems if they (or the machines) believe something is wrong. This is the second time this has happened to us.",06-30-2018 16:59:59
+40,Mozilla: The Greatest Tech Company Left Behind,08-14-2020 09:22:03
+41,Password Rules Are Bullshit,03-10-2017 08:27:49
+42,"It is perfectly OK to only code at work, you can have a life too.",05-02-2019 04:54:31
+43,SourceForge took control of the GIMP account and is now distributing an ad-enabled installer of GIMP,05-27-2015 12:48:50
+44,"Netflix Software Engineers earn a salary of more than $300,000",01-11-2019 10:24:54
+45,The true cost of interruptions: Game Developer Magazine discovered that a programmer needs up to 15 minutes to start editing code again following an interruption.,08-26-2016 11:26:20
+46,How you know you're fucked: when you google a compilation error and find GitHub issues instead of StackOverflow questions,06-11-2016 13:07:43
+47,Bubble sort visualization,12-02-2019 16:06:36
+48,During lockdown my wife has been suffering mentally from pressure to stay at her desk 100% of the time otherwise after a few minutes her laptop locks and she is recorded as inactive. I wrote this small app to help her escape her desk by periodically moving the cursor. Hopefully it can help others.,04-29-2020 06:53:25
+49,"It's perfectly fine to only code at work, don't let anyone tell you otherwise",02-17-2018 20:43:19
+50,Fetlang - Fetish-themed programming language,10-07-2017 09:32:07
+51,"If you are ever interested in using a Hexagonal Grid in your game / app / interface, I came across an absolute goldmine of an article!",09-21-2017 04:44:43
+52,"Former Google engineer breaks down interview problems he uses to screen candidates. Lots of good coding, algorithms, and interview tips.",09-03-2019 11:32:10
+53,Reverse Engineering a Mysterious UDP Stream in My Hotel,05-21-2016 09:46:23
+54,"Blockchain, the amazing solution for almost nothing",10-19-2020 22:32:07
+55,Jesus H. Christ. This guy reverse engineered Pokemon Red....... with Minecraft command blocks. Yep you heard that right.,10-03-2018 17:58:19
+56,Fascinating illustration of Deep Learning and LiDAR perception in Self Driving Cars and other Autonomous Vehicles,07-21-2018 13:06:40
+57,Text analysis of Trump's tweets confirms he writes only the (angrier) Android half,08-10-2016 11:51:40
+58,"It is perfectly OK to only code at work, you can have a life too",08-11-2020 10:52:49
+59,I’m harvesting credit card numbers and passwords from your site. Here’s how.,01-06-2018 17:27:44
+60,Entire Computer Science Curriculum in 1000 YouTube Videos,01-12-2021 07:42:42
+61,Citibank just got a $500 million lesson in the importance of UI design,02-18-2021 01:10:02
+62,"A 3mil downloads per month JavaScript library, which is already known for misleading newbies, is now adding paid advertisements to users' terminals",08-24-2019 06:59:16
+63,"Alan Turing, World War Two codebreaker and mathematician, will be the face of new Bank of England £50 note",07-15-2019 08:21:35
+64,"Blockchain, the amazing solution for almost nothing",08-22-2020 14:19:16
+65,Airline software super-bug: Flight loads miscalculated because women using 'Miss' were treated as children,04-09-2021 09:46:15
+66,An in-depth explanation of how a 10 year old bug in Guitar Hero was reverse-engineered and fixed without using the source code,09-24-2017 10:28:59
+67,"Every single google service is currently out, including their cloud console. Let's take a moment to feel the pain of their devops team",12-14-2020 07:27:52
+68,The .NET Core is now open-source.,11-12-2014 10:42:27
+69,"In major copyright battle between tech giants, SCOTUS sides w/ Google over Oracle, finding that Google didnt commit copyright infringement when it reused lines of code in its Android operating system.",04-05-2021 10:04:41
+70,Google engineer breaks down the problems he uses when doing technical interviews. Lots of advice on algorithms and programming.,09-22-2020 10:09:20
+71,"John Conway, inventor of the Game of Life, has died of COVID-19",04-13-2020 19:52:21
+72,"The open-plan office is a terrible, horrible, no good, very bad idea",07-13-2018 08:25:03
+73,How To Spot Toxic Software Jobs From Their Descriptions,09-02-2020 04:42:57
+74,Why we at $FAMOUS_COMPANY Switched to $HYPED_TECHNOLOGY,05-11-2020 14:45:29
+75,Software development 450 words per minute,08-28-2017 03:51:10
+76,The entire Apollo 11 computer code that helped get us to the Moon is available on github.,07-17-2019 14:50:55
+77,Kids find a security flaw in Linux Mint by mashing keys,01-20-2021 09:37:25
+78,Dark Mode Coming to GitHub After 7 Years,11-25-2020 21:22:33
+79,"Apple has released a free, beginner-level, 900-page book ""App Development with Swift"" + related teaching materials.",05-31-2017 15:12:33
+80,This video shows the most popular programming languages on Stack Overflow since September 2008,09-11-2019 10:10:51
+81,"The code that took America to the moon was just published to GitHub, and it’s like a 1960s time capsule",07-09-2016 20:56:14
+82,"No cookie consent walls — and no, scrolling isn’t consent, says EU data protection body",05-06-2020 10:27:41
+83,Your Social Media Fingerprint,10-12-2016 09:29:55
+84,"The Computer Scientist Responsible for Cut, Copy, and Paste, Has Passed Away",02-19-2020 14:44:58
+85,"'Kernel memory leaking' Intel processor design flaw forces Linux, Windows redesign",01-03-2018 00:13:19
+86,"An insane answer to ""What's the largest amount of bad code you have ever seen work?""",11-14-2018 08:49:43
+87,"URL shorteners are so last year, so I made a URL lengthener",05-16-2021 17:40:01
+88,"Microsoft unveils Windows Terminal, a new command line app for Windows",05-06-2019 13:17:43
+89,Linus Torvalds rails against 80-character-lines as a de facto programming standard,01-03-2021 13:42:04
+90,Australian programmers could be fired by their companies for implementing government backdoors,12-05-2018 23:34:08
+91,Chrome to limit full ad blocking extensions to enterprise users,05-29-2019 21:07:07
+92,"I made a simple iOS app that fetches the crowd-sourced data from OpenStreetMaps, and shows toilets within walking distance. 🚽",03-23-2018 04:30:08
+93,IBM's Watson makes a correct diagnosis after woman's condition stumps experts.,08-06-2016 05:56:54
+94,"“Let’s broadcast the key over Bluetooth. Oh, and use HTTP, no one will know” — the creators of the Tapplock, probably.",06-13-2018 10:55:05
+95,"The unsung saviors of Healthcare.gov: a small startup, working in hotel rooms, who rewrote the site for less than *1/50th* the cost of the initial gov't contractors",07-11-2015 02:27:59
+96,YouTube-dl's repository has been restored.,11-16-2020 09:24:39
+97,Microsoft is bringing the Bash shell to Windows 10,03-30-2016 12:35:21
+98,TIL The original Pokemon games were written in assembly.,08-16-2017 12:42:05
+99,7-Zip exposes a bug in Windows's large memory pages. Causes data corruption and crashes in Windows and other programs.,04-16-2018 08:49:41
+100,"Google reduces JPEG file size by 35%, new algorithm uses research on human psychovisual system",03-17-2017 22:40:18
+101,European Parliament has approved budget for VLC bug bounty program,12-04-2017 08:30:56
+102,"Proton, a modified version of WINE for playing Windows games on Linux... Officially by Valve.",08-22-2018 10:56:59
+103,"I built Hackterms, an Urban Dictionary for coding terms, to help connect the dots while learning - and we're picking up steam! Want to help?",03-02-2018 10:17:51
+104,Googling is one of the most important skills for every developer. Here are some tips to Google efficiently!,04-23-2021 01:13:11
+105,Sony Pictures Has Open-Sourced Software Used to Make ‘Spider-Man: Into the Spider-Verse’,02-09-2019 02:45:47
+106,Apple will remove ability for developers to only give an Always On location setting in their apps,06-10-2017 08:22:26
+107,Programmers are having a huge discussion about the unethical and illegal things they’ve been asked to do,11-20-2016 12:30:54
+108,80's kids started programming at an earlier age than today's millennials,01-23-2018 08:22:47
+109,GitLab's Secret to Multi-Million-Dollar Success: All 350 Employees Work Remotely,11-13-2018 11:10:25
+110,"Kernighan's Law - Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",09-20-2020 16:49:04
+111,Clever way of skirting game code quality tests from the 90s (x-post /r/Games),10-01-2017 15:19:52
+112,Guy makes a game engine that works in a very different way,07-06-2020 15:35:04
+113,Mining Bitcoin with pencil and paper: 0.67 hashes per day,12-18-2017 02:19:11
+114,Let's Encrypt releases support for wildcard certificates,03-13-2018 13:31:31
+115,Unreal Engine 4 available for free,03-02-2015 12:03:09
+116,Tractor Hacking: The Farmers Breaking Big Tech's Repair Monopoly,02-01-2018 23:16:39
+117,"Rockstar thanks GTA Online player who fixed poor load times, official update coming",03-15-2021 22:17:17
+118,"Found these comments by a developer inside the Windows Media Player source code leaked with the WinXP files yesterday, sort of hilarious",09-26-2020 09:56:29
+119,Why I Quit Google to Work for Myself,02-28-2018 09:38:43
+120,A bug with a surprisingly cool side effect,06-25-2020 03:49:56
+121,SHAttered: SHA-1 broken in practice.,02-23-2017 08:04:47
+122,Chrome 56 Will Aggressively Throttle Background Tabs,01-25-2017 10:45:00
+123,7-Zip developer releases the first official Linux version,03-11-2021 21:39:26
+124,A website coding itself live,05-15-2015 10:51:43
+125,"I created the first 64-bit computer in minecraft, along with an assembly-ide to program it",06-04-2020 10:31:20
+126,"Why every user agent string start with ""Mozilla""",06-09-2017 06:13:32
+127,Six programming paradigms that will change how you think about coding,05-01-2017 03:56:33
+128,190 universities just launched 600 free online courses. Here’s the full list.,10-25-2018 15:27:01
+129,'Impostor syndrome' affects almost 58% of tech professionals,09-15-2018 03:07:28
+130,"The modern web is becoming an unusable, user-hostile wasteland",12-20-2019 19:24:17
+131,Researchers asked 43 freelance developers to code the user registration for a web app and assessed how they implemented password storage. 26 devs initially chose to leave passwords as plaintext.,03-08-2019 05:13:09
+132,Being good at programming competitions correlates negatively with being good on the job,07-07-2017 15:02:06
+133,That time Larry Ellison tried to have a professor fired for benchmarking Oracle,12-09-2017 09:29:08
+134,"Reckon you've seen some stupid security things? Here, hold my beer... | Troy Hunt",04-28-2017 13:44:36
+135,Microsoft announces the Windows Package Manager Preview,05-19-2020 11:36:22
+136,Python is becoming the world’s most popular coding language,11-02-2018 23:17:26
+137,The code I’m still ashamed of,11-15-2016 16:25:43
+138,Windows Notepad will soon have Unix line ending support,05-08-2018 13:35:48
+139,I wrote an algorithm to draw portraits from thread... thought you might enjoy!,03-18-2021 08:43:17
+140,"GitHub launches Sponsors, lets you pay your favorite open source contributors",05-23-2019 05:02:03
+141,An actual guy named “Null” messes up people's databases,04-16-2015 16:29:26
+142,"‘No way to prevent this’, Says Only Development Community Where This Regularly Happens",07-30-2019 02:18:51
+143,Google has started a new video series teaching machine learning and I can actually understand it.,04-15-2016 17:37:16
+144,"Feeling like everyone is a better software developer than you and that someday you'll be found out? You're not alone. One of the professions most prone to ""imposter syndrome"" is software development.",04-20-2016 09:10:51
+145,Why Discord is switching from Go to Rust,02-04-2020 13:21:18
+146,"Due to a change in how they report data usage, our monthly costs for Firebase, a SaaS provided by Google, has increased from $25 a month to ~$2,000",05-17-2017 04:47:19
+147,Why the NSA Called Me After Midnight and Requested My Source Code,10-28-2018 12:42:57
+148,Boeing 787s must be turned off and on every 51 days to prevent 'misleading data' being shown to pilots,05-10-2021 14:50:41
+149,Why are we so bad at software engineering?,02-12-2020 09:06:59
+150,npm bans terminal ads,08-30-2019 08:30:52
+151,How I hacked hundreds of companies through their helpdesk,09-22-2017 03:35:30
+152,Bill Gates' tribute to his friend Paul Allen,10-17-2018 07:54:26
+153,Flickr solves XKCD 1425 - determine whether a photo is of a national park or a bird,10-20-2014 16:53:26
+154,"Ever wonder how computers work? This guy builds one step by step and explains how every part works in a way that anyone can understand. I no longer just say ""it's magic.""",06-03-2018 04:34:08
+155,GoDaddy is sneakily injecting JavaScript into your website and how to stop it,01-13-2019 00:35:00
+156,University of Helsinki offers a world class course on modern full stack development for free,04-04-2020 09:26:43
+157,amazing OpenGL fluid,08-27-2019 13:27:03
+158,"AMD creates a tool to convert CUDA code to portable, vendor-neutral C++",12-13-2016 14:22:30
+159,"To the brain, reading computer code is not the same as reading language",12-15-2020 23:02:17
+160,"Introducing security alerts on GitHub - With your dependency graph enabled, we’ll now notify you when we detect a vulnerability in one of your dependencies and suggest known fixes from the GitHub community",11-16-2017 14:51:48
+161,Let's Encrypt is now the largest SSL certificate issuer for websites with 51.21% domain usage,04-18-2018 11:44:17
+162,"Frances Allen, pioneering researcher in compiler optimizations and the first woman to win the Turing Award, has passed away",08-05-2020 17:44:46
+163,Senior Developers are Getting Rejected for Jobs,05-14-2019 14:05:17
+164,"It is perfectly OK to only code at work, you can have a life too",01-08-2020 07:14:32
+165,"Overtime Hurts Your Software & Your Team - “Joe really went that extra mile to help us meet our goal. Staying late, coming in on weekends. He really sacrificed for our mission.” Overtime is a sign of problems that should never receive praise",09-28-2018 13:56:28
+166,"Announcing 1.1.1.1: the fastest, privacy-first consumer DNS service",04-01-2018 13:24:56
+167,Microsoft open sources PowerShell; brings it to Linux and Mac OS X,08-18-2016 11:22:51
+168,"I'm a software engineer going blind, how should I prepare?",04-20-2020 07:29:23
+169,/r/programming hits 1 million subs,03-21-2018 22:50:44
+170,"Stop Calling Everything AI, Machine-Learning Pioneer Says",04-01-2021 11:18:10
+171,Dear Al-Jazeera: Why Steal Our Code?,09-18-2016 08:38:21
+172,Nissan source code leaked online after Git repo misconfiguration,01-06-2021 20:16:05
+173,"The UK Gov just spent £11.8 million on a COVID tracking app, in a 10 week project that’s failed to deliver. Here’s the github",06-23-2020 17:52:22
+174,Microsoft joins The Linux Foundation as a Platinum member,11-16-2016 11:19:02
+175,Compressing and enhancing hand-written notes,03-12-2018 09:18:18
+176,EFF is resigning from the W3C due to DRM objections,09-18-2017 15:50:29
+177,Build your own X,05-12-2018 21:12:48
+178,Former Google engineer breaks down interview problems he used to use to screen candidates. Lots of good programming tips and advice.,01-23-2019 11:14:07
+179,Electron is flash for the Desktop,04-11-2017 00:28:58
+180,Last Name “True” broke iCloud,03-06-2021 01:23:42
+181,Github dark mode is here,12-08-2020 12:42:24
+182,The basic architecture concepts I wish I knew when I was getting started as a web developer • Web Architecture 101,07-12-2018 07:10:43
+183,New approach to China,01-12-2010 18:14:30
+184,Google's guide for becoming a Software Engineer,05-12-2015 09:38:14
+185,The web is 30 years old today,12-20-2020 11:22:34
+186,"The >$9Bn James Webb Space Telescope will run JavaScript to direct its instruments, using a proprietary interpreter by a company that has gone bankrupt in the meantime...",04-23-2019 17:18:53
+187,Zoom uses pre-installation script to install without user clicking “Install” button,04-01-2020 12:43:06
+188,Google wants websites to adopt AMP as the default approach to building webpages. Tell them no.,09-06-2018 07:56:57
+189,Breaking down Amazon's mega dropdown,03-06-2013 09:54:37
+190,Around 62% of all Internet sites will run an unsupported PHP version in 10 weeks,10-14-2018 15:10:44
+191,Crypto miners are killing free CI,04-25-2021 17:48:44
+192,Programmers: Please don't ever say this to beginners ...,12-07-2014 18:28:01
+193,Ad code 'slows down' browsing speeds: Developer Patrick Hulce found that about 60% of the total loading time of a page was caused by scripts that place adverts or analyse what users do,02-17-2019 03:28:02
+194,"What happens when you type ""Google.com"" in the address bar",07-29-2017 16:45:22
+195,Linus Torvalds: “Do No Harm”,11-22-2017 06:38:33
+196,Programming becomes part of Finnish primary school curriculum - from the age of 7,09-04-2014 05:46:49
+197,"Your CS Degree Won’t Prepare You For Angry Users, Legacy Code, or the Whims of Other Engineers",04-24-2019 11:35:11
+198,H.264 is Magic,11-04-2016 07:36:28
+199,"Worked in the software industry long enough to know that coding interviews don't measure a candidate's ability to succeed on the role - it's a shame that many companies still use it as a measuring standard. To bridge this gap, I started a YT series going over popular coding interview questions.",10-11-2019 00:06:03
+200,Let them paste passwords,05-18-2017 06:01:16
+201,New Alan Turing £50 note design is revealed,03-25-2021 11:31:01
+202,Breadth-first search visualization,12-04-2019 13:52:19
+203,"Company named ""><SCRIPT SRC=HTTPS://MJT.XSS.HT> LTD forced to change its name by the Companies House",11-06-2020 16:17:28
+204,Bill Gates demonstrates Visual Basic (1991),10-06-2020 05:01:10
+205,Programming Sucks,04-29-2014 11:39:30
+206,IBM employee forced to stop kernel work for using personal email address,04-20-2021 07:47:13
+207,Why is “2 * (i * i)” faster than “2 * i * i”? (JAVA),11-30-2018 06:39:11
+208,Amazon to ditch Oracle by 2020,08-06-2018 07:54:15
+209,The entire Apollo 11 computer code that helped get us to the Moon is available on github.,02-18-2020 20:43:06
+210,Employees are happier when led by people with deep expertise (2016),03-27-2021 04:33:52
+211,Web Browser Market Share (1996-2019),09-13-2019 09:24:12
+212,Former Uber engineer shares “biggest engineering disaster” story,12-10-2020 11:01:07
+213,In 2020 it takes reddit 8 seconds to load r/programming,04-28-2020 23:55:15
+214,"""We can’t include a backdoor in Signal"" - Signal messenger stands firm against Australian anti-encryption law",12-14-2018 10:57:52
+215,I made an OpenAI-powered Linux shell that does what you mean,04-18-2021 15:34:46
+216,"Just shut up and let your devs concentrate, advises Stack Overflow CEO Joel Spolsky",10-09-2016 12:53:46
+217,Copyright implications of brute forcing all 12-tone major melodies in approximately 2.5 TB.,02-10-2020 12:46:00
+218,List of 600 free online courses...,11-06-2017 03:07:43
+219,Happy 13th birthday to MySQL bug #11472!,06-21-2018 07:08:02
+220,I got quarantine bored and built a robot that you can democratically drive on the internet in my backyard.,06-03-2020 07:43:27
+221,eBay Japan source leak as .git folder deployed to production,11-29-2018 05:50:13
+222,"I created an open-source NES emulator that can rewind time. It can be programmatically controlled from C, C#, Java, Lua and Python.",04-18-2017 09:28:44
+223,YouTuber runs viewer-submitted Python code to light up 500 LEDs in Christmas tree,01-16-2021 06:55:09
+224,"Two years ago, secret club member @floesen_ reported a remote code execution flaw affecting all source engine games. It can be triggered through a Steam invite. This has yet to be patched, and Valve is preventing us from publicly disclosing it.",04-10-2021 16:17:20
+225,Google engineer breaks down the interview questions he used before they were leaked. Lots of programming and interview advice.,10-08-2018 15:07:33
+226,This guy made a video game out of his game engine that can render infinitely detailed fractals,01-09-2019 02:11:52
+227,CRYENGINE now available on github,05-24-2016 06:33:04
+228,"Adobe to remove Flash from their website after December 2020, yielding to ""open standards such as HTML5, WebGL, and WebAssembly""",06-15-2020 16:49:11
+229,A simple demo of phishing by abusing the browser autofill feature,01-06-2017 06:28:59
+230,How a 'NULL' License Plate Landed One Hacker in Ticket Hell,08-14-2019 00:24:03
+231,UK ISP association brands Mozilla a villain for implementing secure DNS,07-06-2019 12:36:33
+232,Apple open-sources iOS kernel,09-30-2017 00:18:31
+233,Average website is now the size of Doom,04-22-2016 07:36:19
+234,"Netflix announces ""The Switch"", a programmable button that can dim lights, order takeout, silence your phone, and fire up your favorite show.",09-27-2015 17:00:53
+235,Switzerland offers cash to hackers who can crack its e-voting system,02-14-2019 08:37:43
+236,"After 3 Years of Work, Chrome Killed My Extension and Won’t Tell Me Why",06-18-2020 13:19:09
+237,A student asked Quora to do his homework for him. Oh we can be brutal.,07-07-2016 07:36:44
+238,Quake III's Fast Inverse Square Root Explained [20 min],12-29-2020 06:27:06
+239,Best websites a programmer should visit,06-06-2017 04:52:59
+240,cURL's author is awarded with the Polhemspriset award.,10-17-2017 07:21:24
+241,"This Video Has 164,608 Views (Tom Scott on web APIs)",04-06-2020 11:37:59
+242,Whistleblowers: Software Bug Keeping Hundreds Of Inmates In Arizona Prisons Beyond Release Dates,02-22-2021 15:58:38
+243,We can't send email more than 500 miles,07-09-2020 02:01:44
+244,Talk of tech innovation is bullsh*t. Shut up and get the work done – says Linus Torvalds,02-15-2017 21:37:58
+245,Linus Torvalds on 80-character line limit,05-29-2020 20:45:29
+246,Microsoft developer reveals Linux is now more used on Azure than Windows Server,07-01-2019 00:01:21
+247,Microsoft is going to support Secure Shell (SSH) for PowerShell,06-03-2015 01:50:36
+248,How Google taught me to turn Impostor Syndrome into an Advantage,09-04-2020 11:00:56
+249,Github may be inaccessible today due to a DDoS attack by the Chinese government using Baidu,03-27-2015 09:07:14
+250,Unix time reaches 1600000000 today!,09-13-2020 03:56:10
+251,18-year-old Ewin Tang has proven that classical computers can solve the “recommendation problem” nearly as fast as quantum computers. The result eliminates one of the best examples of quantum speedup.,08-01-2018 18:27:12
+252,"In 1982, a one-bit hack let me dodge a summer of filling in potholes",05-19-2021 09:45:41
+253,"Facebook Relicensing React, Flow, Immuable Js and Jest",09-22-2017 17:56:08
+254,Depixelation & Convert to real faces with PULSE,06-26-2020 05:26:39
+255,How it feels to learn Javascript in 2016 [x-post from /r/javascript],10-03-2016 12:45:16
+256,App suspended from Google Play for listing supported subtitle formats - one of which was the ASS format,01-25-2021 15:31:22
+257,Let's Encrypt Everything,11-24-2016 02:40:17
+258,Nearly 70% of iOS and Android users will deny tracking permissions if they are requested in-app to opt-in! How will that affect developers earnings from mobile apps?,07-15-2020 07:55:10
+259,Dialup handshake explained,01-30-2013 03:36:33
+260,Pornhub Bypasses Ad Blockers With WebSockets,11-02-2016 09:02:38
+261,SQL Joins Explained (x-post r/SQL),02-11-2014 05:31:57
+262,"Yes, The Appeals Court Got Basically Everything Wrong In Deciding API's Are Covered By Copyright",08-19-2015 02:33:59
+263,Too many coders work in environments where they are treated as idiot savants,02-27-2018 00:29:42
+264,How Spotify Codes work,11-17-2020 06:53:05
+265,Turning animations to 60fps using AI,11-30-2019 04:38:52
+266,"Someone published a source mirror of youtube-dl encoded as image, posted with decode commands",10-24-2020 16:25:38
+267,"GitHub achives all of the repositories present on February 2, 2020 in a code vault in the Arctic.",07-17-2020 06:30:14
+268,"""The idea that I can be presented with a problem, set out to logically solve it with the tools at hand, and wind up with a program that could not be legally used because someone else followed the same logical steps some years ago and filed for a patent on it is horrifying."" John Carmack",04-06-2010 07:32:39
+269,"I hate Agile development because it's been coopted by business management , as a method to gamify software building...am I crazy?",07-26-2020 18:56:51
+270,Every 7.8μs your computer’s memory has a hiccup,11-24-2018 08:09:33
+271,4 Million Computers Compromised: Zoom's Biggest Security Scandal Explained,01-01-2021 10:54:00
+272,No cookie for you - The GitHub Blog,12-17-2020 13:39:16
+273,"COVID-19 Response: New Jersey Urgently Needs COBOL Programmers (Yes, You Read That Correctly)",04-04-2020 22:00:48
+274,How to write unmaintainable code,07-28-2016 13:37:38
+275,Azure being overwhelmed by 775% surge in demand in lockdown regions,03-29-2020 19:11:15
+276,Larry Page's Java question – 1996 - every journey begins somewhere :-),11-11-2014 05:45:15
+277,China is now blocking all encrypted HTTPS traffic that uses TLS 1.3 and ESNI,08-08-2020 23:14:42
+278,We have an employee whose last name is Null.,11-15-2013 06:37:44
+279,I ruin developers’ lives with my code reviews and I'm sorry,02-18-2019 08:31:22
+280,A fresh new avenue for Google to kill your SaaS startup: Google Safe Browsing,01-17-2021 08:14:41
+281,"The SSH port is 22. It is not a co-incidence. This is a story I (Tatu Ylonen, who wrote the initial version of SSH in Spring 1995) haven't told before.",04-23-2017 12:26:27
+282,"Mozilla Acquires Pocket, plans to open-source",02-27-2017 16:19:35
+283,"""I am a dev at a Fortune 500 and my manager is an a@@ h@@@ who doesn't understand or cares about security""",01-31-2021 13:18:31
+284,Learn Unreal Engine (with C++) - Full Course for Beginners,12-24-2019 00:26:58
+285,"""Some anti-virus vendors are using techniques to bypass Kernel Patch Protection by injecting a hypervisor which they use to intercept syscalls and make assumptions about memory locations — memory locations which are now changing with the Meltdown fixes.""",01-10-2018 04:22:21
+286,"Oh, shit, git!",09-09-2016 05:23:41
+287,Prisons Are Banning Books That Teach Prisoners How to Code,06-21-2019 18:11:18
+288,"One liner npm package ""is-windows"" has 2.5 million dependants, why on earth?!",06-15-2019 13:39:29
+289,Javascript: Can (a ==1 && a== 2 && a==3) ever evaluate to true?,01-16-2018 15:21:24
+290,How Spotify shuffles songs,04-11-2017 20:34:19
+291,Atlassian's new software terms forbid benchmarking and publishing information about performance,09-29-2018 18:47:07
+292,"IBM Java CTO: Devs shouldn't have to learn Docker, K8s, 30 other things to deploy an app",02-21-2018 21:00:51
+293,VS Code Uses 13% CPU When Idle Due to Blinking Cursor Rendering,03-23-2017 12:21:45
+294,Why I hate iOS as a developer,10-06-2016 18:43:57
+295,"Aiming to fill skill gaps in AI, Microsoft makes training courses available to the public",04-25-2018 09:22:27
+296,Boeing 747s Still Use Floppy Disks to Get Software Updates,08-12-2020 09:45:36
+297,Reverse Engineering A Mysterious UDP Stream in My Hotel · Gokberk Yaltirakli,01-20-2018 18:47:05
+298,Another 1-liner npm package broke the JS ecosystem,04-25-2020 13:52:42
+299,Dropbox would rather write code twice than try to make C++ work on both iOS and Android,08-17-2019 20:58:05
+300,Which hashing algorithm is best for uniqueness and speed? Ian Boyd's answer (top voted) is one of the best comments I've seen on Stackexchange.,07-09-2018 20:45:34
+301,"550+ customizable (size, color, stroke) open-source SVG icons for web developers",07-20-2020 10:20:40
+302,How NOT to perform password security,12-22-2014 14:50:20
+303,.NET Core is on Github!,02-03-2015 13:11:35
+304,WordPress abandoning React due to Facebook patent clause,09-14-2017 21:42:38
+305,"Scott Hanselmann: ""Don’t feel you need to work more than 8 hours a day. Or 6. Don’t make code your hobby UNLESS YOU WANT TO""",05-02-2020 06:34:06
+306,Windows 10 Linux subsystem will ship with a real Linux kernel,05-07-2019 07:03:29
+307,​Tesla starts to release its cars' open-source Linux software code,06-01-2018 09:37:50
+308,Simulating cloth,03-25-2013 08:38:26
+309,Quake running on an oscilloscope,12-29-2014 10:23:42
+310,"How a bug in Visual Studio 2015 exposed my source code on GitHub and cost me $6,500 in a few hours",08-31-2015 17:38:39
+311,Docker for Windows won't run if Razer Synapse driver management tool is running,02-18-2020 05:16:16
+312,The tragedy of 100% code coverage,05-08-2017 04:56:55
+313,The ??!??! operator,04-15-2015 09:18:01
+314,The author of uBlock on Google Chrome's proposal to cripple ad blockers,05-30-2019 09:02:23
+315,Computer Scientists Ask Supreme Court to Rule APIs Can’t Be Copyrighted: EFF Files Amicus Brief on Behalf of Tech Pioneers in Oracle v. Google Court Battle,11-08-2014 09:10:04
+316,H.264 is magic.,07-09-2017 15:48:26
+317,I modified an SQL query from 24 mins down to 2 seconds - A tale of query optimization,05-19-2019 14:46:59
+318,Windows XP source code leak,09-25-2020 11:19:46
+319,Skype delivers new feature for skype interviews! Now there is a code editor that allows you to run code!,08-31-2017 08:06:28
+320,Microsoft makes source code for MS-DOS and Word for Windows available to public!,03-25-2014 12:34:59
+321,Sega Saturn CD - Cracked after 20 years,07-11-2016 12:11:14
+322,Google is currently trying to patent video compression application of Asymmetric Numeral Systems - which is replacing Huffman and arithmetic coding due to up to 30x speedup,06-13-2017 10:35:39
+323,"I just finished my first project in C. The program is called undelete_jpg . It allows to recover deleted images from SD cards and hard drives. It usually process data as fast as the SD card can transfer, but can go up to 10GB/s when data is cached. Check it out and let me know what you think.",01-21-2020 18:20:28
+324,Bug #1463112 “Cat sitting on keyboard crashes lightdm”,06-20-2020 08:51:43
+325,Webkit just killed their SVN repository by trying to commit a SHA-1 collision attack sensitivity unit test.,02-24-2017 11:42:34
+326,"I'm a software engineer going blind, how should I prepare?",11-22-2020 11:55:57
+327,"Tony Brooker, Pioneer of Computer Programming, Dies at 94 | After meeting Alan Turing, Mr. Brooker went to work at the University of Manchester and wrote the programming language for the first commercial computer.",12-14-2019 05:24:13
+328,What's it like as a Senior Engineer? My experiences working at Google & Microsoft,08-25-2020 12:35:17
+329,Vote for Barbie to be a computer engineer!,01-11-2010 14:39:19
+330,Meet Raspberry Silicon: Raspberry Pi Pico now on sale at $4,01-21-2021 12:18:14
+331,Chromium is eroding the Open Web and it’s our responsibility to stop it,02-15-2019 16:50:55
+332,Microsoft Open Sources Parts of Minecraft: Java Edition,10-06-2018 15:23:25
+333,A simple stack overflow question becomes an interesting lesson in tech history (ZIP),06-16-2016 16:14:44
+334,TLDR pages - Simplified and community-driven man pages,11-23-2017 12:18:20
+335,How I hacked modern Vending Machines,10-15-2018 10:36:26
+336,The world's worst video card?,07-05-2019 13:14:59
+337,HTTPS on Your Landing Page Is Important,12-14-2017 00:19:21
+338,Left pad as a service,03-24-2016 02:27:22
+339,Nvidia AI turns sketches into photorealistic landscapes in seconds,03-18-2019 21:31:14
+340,How to Make Your Code Reviewer Fall in Love with You,12-02-2020 11:20:41
+341,World's worst video card? The exciting conclusion. - YouTube,07-13-2019 13:11:40
+342,zsh is now the default shell for MacOS.,06-03-2019 22:50:56
+343,Bad software sent the innocent to prison,04-24-2021 10:08:59
+344,Microsoft Annouces Visual Studio Code (Crossplatform IDE),04-29-2015 12:18:53
+345,Detecting Agile Bullshit (from the US Department of Defense),01-15-2019 07:13:05
+346,How do computers read code? - A great video explaining the basics of how compilers turn high-level software into machine code,11-19-2017 20:34:18
+347,The decline of Stack Overflow,09-25-2016 09:50:22
+348,The best way to write secure and reliable applications. Write nothing; deploy nowhere.,02-06-2018 20:46:48
+349,I wrote a program to compute a backboard that maximizes the shots that go in. Then I built it and it works!,04-17-2020 09:29:07
+350,Linux is now on Mars and available on github,03-07-2021 15:04:54
+351,One Guy Ruined Hacktoberfest 2020,10-02-2020 00:53:42
+352,"""As a systems hacker, you must be prepared to do savage things, unspeakable things, to kill runaway threads with your bare hands, to write directly to network ports using telnet and an old copy of an RFC that you found in the Vatican."" THE NIGHT WATCH by James Mickens.",06-30-2017 14:52:04
+353,Let's Encrypt is now trusted by all major browsers,10-20-2015 04:49:48
+354,Python overtakes Java to become second-most popular language on GitHub after JavaScript,11-11-2019 17:49:49
+355,"""Real programmers can do these problems easily""; author posts invalid solution to #4",05-08-2015 21:33:01
+356,"For anyone using the soon to shut down Dark Sky API, I've created a free AWS Lambda service that serves weather data using the same request/ response syntax, along with a web front-end and a blog explaining the setup!",05-13-2021 07:45:21
+357,Chrome: 70% of all security bugs are memory safety issues,05-23-2020 16:17:27
+358,"An iOS zero-click radio proximity exploit odyssey - an unauthenticated kernel memory corruption vulnerability which causes all iOS devices in radio-proximity to reboot, with no user interaction",12-01-2020 17:53:41
+359,"Cracking my windshield and earning $10,000 on the Tesla Bug Bounty Program",07-16-2019 12:54:40
+360,Stop building websites with infinite scroll!,10-19-2018 11:40:21
+361,"""Programming Sucks"": A very entertaining rant on why programming is just as ""hard"" as lifting heavy things for a living.",10-07-2015 13:23:50
+362,10.000 Double Pendulums | Double pendulum simulation in C++,11-20-2020 12:06:40
+363,"Dev creeped out after he fired up Ubuntu VM on Azure, was immediately approached by Canonical sales rep",02-13-2021 08:26:35
+364,"""Stop Designing Languages. Write Libraries Instead.""",05-31-2016 15:43:25
+365,FTP is 50 years old,04-16-2021 09:56:53
+366,The Absurdly Underestimated Dangers of CSV Injection,10-09-2017 18:49:14
+367,Naughty Strings - A list of strings which have a high probability of causing issues when used as user-input data,11-16-2018 06:12:18
+368,"Microsoft makes its 60,000 patents open source to help Linux",10-12-2018 19:19:07
+369,"Making an OS (x86) - Part 1: CPU, Assembly, Booting",08-23-2020 10:19:53
+370,"Ghidra, NSA's reverse engineering tool, is now available to the public",03-05-2019 20:55:46
+371,I was just asked to crack a program in a job interview,09-17-2014 15:57:54
+372,This guy taught me better than my professor.,12-10-2016 14:48:07
+373,I WILL SLAUGHTER YOU - Daniel Stenberg got a quite upsetting email for writing curl,02-19-2021 09:37:46
+374,AWS forked my project and launched it as its own service,10-16-2020 09:27:57
+375,Oracle denied new trial in copyright dispute with Google over Java,10-19-2016 11:52:30
+376,A blender script that procedurally generates 3D starships,06-18-2016 16:16:45
+377,The Programmer’s Guide to Booking a Plane,01-02-2017 02:29:23
+378,Skipping an update on Docker is a paid feature.,05-02-2021 00:45:35
+379,Microsoft: 70 percent of all security bugs are memory safety issues,02-11-2019 17:49:54
+380,World of Warcraft: one simple line of code can cost you dearly,07-25-2016 10:21:45
+381,Computer simulations teaching themselves to walk - an unintentionally hilarious video (x-post from /r/Algorithms),04-16-2014 08:16:29
+382,Kaspersky AV injected unique ID allowing sites to track users in incognito mode,08-18-2019 11:55:28
+383,"California passes nation’s first IoT security bill - (Requires ""any device that connects directly or indirectly to the internet and has an IP or Bluetooth address"" to have appropriate security in place)",09-24-2018 11:59:40
+384,Trello handed over user's personal account to user's previous company,04-15-2020 10:27:02
+385,A great visual explanation on how Neural Networks really work [x-post from x/videos],04-07-2019 09:50:39
+386,"GitHub is now usable in Iran, after acquiring a US government license",01-05-2021 13:26:07
+387,Serverless: 15% slower and 8x more expensive,09-23-2019 08:40:16
+388,"Replays of technical interviews with engineers from Google, Facebook, and more",09-13-2018 14:03:15
+389,Electron is Flash for the desktop,02-13-2019 15:54:18
+390,"""Here’s the Solution to the 3 Year Old, $50,000 Bitcoin Puzzle"". How one programmer cracked the private key to a Bitcoin wallet hidden in a painting.",02-03-2018 11:27:57
+391,Look before you paste from a website to terminal,01-26-2017 04:11:35
+392,An 11 line npm package called left-pad with only 10 stars on github was unpublished...it broke some of the most important packages on all of npm.,03-22-2016 18:36:33
+393,Bootstrap 4 released,01-18-2018 14:13:52
+394,"To Learn Programming, Do Projects You Actually Care About",11-14-2016 13:59:32
+395,Microsoft Buys GitHub: The Linux Foundation's Reaction - The Linux Foundation,06-08-2018 02:00:05
+396,The Technical Interview Cheat Sheet,08-24-2015 18:44:16
+397,"Amazon introduce their own game engine called Lumberyard. Open source, based on CryEngine, with AWS and Twitch integration.",02-09-2016 04:02:02
+398,NVIDIA Starts Publishing GPU Hardware Documentation To Help Open-Source Drivers,08-07-2019 16:30:05
+399,"""Dad? Why do we always use .NET?"" — I'm not a big fan of Java, but this movie trailer is brilliant!",06-25-2010 09:11:06
+400,GitHub staff comments on why a repo is being rate limited (hint: it keeps 5 server CPUs pegged at 100%).,03-08-2016 11:18:08
+401,The Bulk of Software Engineering in 2018 is Just Plumbing,07-08-2018 09:18:31
+402,Reddit’s empire is founded on a flawed algorithm,12-09-2013 18:30:12
+403,"Joe Armstrong, the creator of Erlang, has passed away",04-20-2019 10:02:46
+404,"Researchers discover seven new Meltdown and Spectre attacks: ""Experiments showed that processors from AMD, ARM, and Intel are affected.""",11-15-2018 09:00:12
+405,Google finds 10 buffer overflows in Windows kernel font handling,06-30-2016 03:43:53
+406,"The Techtopus: How Silicon Valley's most celebrated CEOs conspired to drive down 100,000 tech engineers' wages",09-18-2018 04:47:47
+407,"Toyota Unintended Acceleration and the Big Bowl of “Spaghetti” Code. Their code contains 10,000 global variables.",11-29-2015 14:13:33
+408,"Today, 28 years ago Linus Torvalds announced Linux on comp.os.minix.",08-25-2019 07:36:16
+409,Image Synthesis from Yahoo's open_nsfw,10-20-2016 19:25:37
+410,The first purchase on Amazon was by a Bay Area programmer in 1995. It was “Fluid Concepts And Creative Analogies: Computer Models Of The Fundamental Mechanisms Of Thought” by Douglas Hofstadter. It is a thick read about Artificial Intelligence.,12-06-2020 12:38:20
+411,A 0Day vulnerability in MS Windows has gone public because Microsoft missed the canonical 120 days deadline,09-25-2018 09:26:21
+412,Google and Oracle’s $9 billion “copyright case of the decade” could be headed for the Supreme Court,05-26-2019 13:52:38
+413,"400,000 GitHub repositories, 1 billion files, 14 terabytes of code: Spaces or Tabs?",08-30-2016 23:23:04
+414,"Two professors at my university have decided to create a free OS book because ""book prices are too high""",01-17-2014 09:20:00
+415,I bought 300 emoji domain names from Kazakhstan and built an email service,03-11-2021 06:23:02
+416,Microsoft Announces that it will drop official support of PHP on Windows,07-11-2020 20:22:32
+417,Campaign for a new HTTP Error code: 451 - Blocked for legal reasons,08-15-2013 07:05:34
+418,OpenAI Plays Hide and Seek…and Breaks The Game! 🤖,10-22-2019 19:10:20
+419,"DeepMind Go AI defeats European Champion: neural networks, monte-carlo tree search, reinforcement learning.",01-27-2016 13:05:00
+420,Privacy analysis of Tiktok’s app and website,12-07-2019 01:03:31
+421,"My friend and I made a Visual Studio plugin which lets you see which files your teammates are working on in real time, to help prevent merge conflicts. You can also get a diff between their version of the file and yours, even before committing to source control. We'd love to know what you think!",07-08-2019 06:39:14
+422,"Kernighan's Law - Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",02-17-2020 10:33:20
+423,"Google will now pay up to $30,000 for reporting a Chrome bug",07-18-2019 12:08:26
+424,0x5f3759df and the fast inverse square root,08-15-2017 10:45:30
+425,D has no vision. Go is out of its depth. Rust skipped leg day.,11-10-2015 10:32:43
+426,Researcher hacks over 35 tech firms by creating public NPM packages,02-11-2021 15:38:08
+427,Today's CPU vulnerability: what you need to know,01-03-2018 17:27:11
+428,[Do you know] - You can run SQL like queries in Google Sheets for crunching the data - Lot of my time is saved today,11-06-2018 11:02:55
+429,"EFF to Developers: If You Get an API Claim After Oracle v. Google, We Want to Hear From You",07-01-2015 13:51:41
+430,A hacker stole $31M of Ether—how it happened and what it means for Ethereum,07-20-2017 20:22:13
+431,"Feds: IBM did discriminate against older workers in making layoffs - “Analysis shows it was primarily older workers (85.85%) in the total potential pool of those considered for layoff,” the EEOC wrote",09-14-2020 16:50:36
+432,EARN IT is a direct attack on end-to-end encryption,03-11-2020 19:20:25
+433,The Line of Death,01-15-2017 07:38:51
+434,Exploring How Computers Work,11-21-2020 09:48:27
+435,"R.I.P. John McCarthy, father of AI, inventor of Lisp, suddenly at home last night.",10-24-2011 16:07:07
+436,"SPOILER alert, literally: Intel CPUs afflicted with simple data-spewing spec-exec vulnerability",03-05-2019 03:25:24
+437,The winning 8 kilobyte demo from this year's Revision demo party.,04-02-2018 08:25:51
+438,"Andy Tanenbaum, author of Minix, writes an open letter to Intel",11-07-2017 03:13:02
+439,Python 2.7 has exited the chat,01-01-2020 00:20:05
+440,curl will be shipped by default with Windows shell,01-17-2018 07:57:08
+441,We did not sign up to develop weapons: Microsoft workers protest $480m HoloLens military deal,02-23-2019 00:43:15
+442,Some Git tips courtesy of the CIA,03-08-2017 09:07:19
+443,"Samsung develops sorting algorithm which sorts 3.7 TB data in a minute, breaking the record of 1.5 TB",11-26-2014 01:48:46
+444,98.css – design system for building faithful recreations of Windows 98 UIs,04-22-2020 03:05:29
+445,Rockstar: a programming language where code is also 1980s song lyrics,07-22-2018 06:15:46
+446,This should never happen,03-31-2016 06:58:34
+447,The only cheat sheet you need,07-11-2018 08:58:02
+448,'Good Luck With That' Public License,06-06-2018 08:36:23
+449,I decided to make a graphics card for my Amiga 2000,04-16-2016 20:05:03
+450,Vim³ - Vim rendered on a cube for no reason,03-31-2020 07:31:16
+451,I finished writing my free book on game programming!,04-22-2014 23:35:57
+452,I analyzed ~2TB of code to build an index of the most common words in programming languages,01-18-2017 09:14:39
+453,"Stripe Workers Who Relocate Get $20,000 Bonus and a Pay Cut - Stripe Inc. plans to make a one-time payment of $20,000 to employees who opt to move out of San Francisco, New York or Seattle, but also cut their base salary by as much as 10%",09-15-2020 17:58:57
+454,Stanford scientists locate nearly all U.S. solar panels by applying machine learning to a billion satellite images,12-22-2018 11:00:52
+455,How a comment on HackerNews lead to 4 ½ new Unicode characters,06-23-2016 02:37:06
+456,Introducing Visual Studio Live Share,11-15-2017 10:28:47
+457,Apple is starting to use Rust for low-level programming,09-11-2020 03:51:57
+458,"Windows Task Manager Source Code Review by Original Author: Retired Microsoft Engineer ""davepl""",12-13-2020 10:13:04
+459,"Danny Cohen, who was one of the developers of the first flight sim and coined the terms ""Little Endian/Big Endian,"" has passed away",08-21-2019 18:12:50
+460,A lot of free PDFs about programming from Stack Overflow.,01-19-2018 03:28:04
+461,How to create an OS from scratch,09-21-2018 08:31:34
+462,I built a screenshot API and some guy was mining cryptocurrencies with it.,04-27-2018 10:12:35
+463,Awesome list of Important Podcasts for software engineers,03-30-2018 09:13:14
+464,Why Stack Exchange (Still) Believes In Private Offices,01-16-2015 12:03:10
+465,GDPR Hall of Shame,05-25-2018 04:23:12
+466,"Someone discovered that the Facebook iOS application is composed of over 18,000 classes.",08-15-2015 18:20:54
+467,The best explanation of binary I have ever seen - teaching third graders using the socratic method.,11-05-2015 02:50:28
+468,Huawei savaged by Brit code review board over pisspoor dev practices,03-28-2019 17:11:31
+469,Powershell to replace CMD as windows default shell (Inside 14971),11-21-2016 08:42:59
+470,"GitHub was also talking to Google about a deal, but went with Microsoft instead",06-05-2018 11:58:18
+471,The Unfixable Bug,11-23-2016 01:51:12
+472,The Evolution of Code Deploys at Reddit,06-02-2017 18:33:41
+473,Split your file into encrypted horcruxes so that you don't need to remember a passcode,08-19-2020 19:42:14
+474,Minecraft: Pack.PNG has been FOUND! - Here's how they did it.,09-12-2020 00:33:38
+475,How I Ruined Office Productivity With a Face-Replacing Slack Bot,02-19-2017 18:13:59
+476,How to Deal with Difficult People on Software Projects,03-17-2021 05:29:02
+477,How Discord Stores Billions of Messages [2015],05-06-2021 05:41:21
+478,Cyberpwned: Beating Cyberpunk 2077's hacking minigame in ~50 lines of Python,12-21-2020 07:18:29
+479,How Crash Bandicoot was fit into 2mb of RAM,06-18-2015 01:55:40
+480,Google opens .dev domain for everyone,03-01-2019 15:16:33
+481,Stack Exchange was down because of an innocent looking Regex,07-20-2016 16:25:30
+482,"""I don't know what to say.""– Backdoor in popular event-stream NPM repo (github.com)",11-26-2018 11:40:24
+483,3D engine entirely made of MS Excel formulae,02-16-2018 17:19:57
+484,The UK government's COVID-19 simulation model is a masterpiece in spaghetti code and bad practices,05-05-2020 20:04:57
+485,ASCII fluid dynamics -- A tiny fluid simulator that fits in 80x25 terminal,06-01-2019 19:11:15
+486,Why Software Developers Are Paid 5x More in The USA,12-09-2018 13:23:51
+487,ComcastifyJS by The Onion,09-12-2014 13:09:36
+488,Python 3.6 released!,12-23-2016 05:49:34
+489,Objective-C creator Dr. Brad Cox has died,01-22-2021 19:22:44
+490,GDPR: Chat platform Knuddels must pay 20.000 Eur for storing plain-text passwords.,11-22-2018 09:36:05
+491,Let's celebrate! MySQL bug #11472 now 10 years old!,06-20-2015 19:19:38
+492,AI learns to Speedrun QWOP (1:08) using Machine Learning,02-25-2021 22:28:02
+493,A Facebook crawler was making 7M requests per day to my stupid website,06-11-2020 14:53:40
+494,This is a Haskell program that prints out a Perl program that prints out a Python program that prints out a Ruby program that prints out a C program that prints out a Java program that prints out the original program.,07-03-2018 13:33:05
+495,"""I know how to program, but I don't know what to program""",05-10-2016 22:34:45
+496,is-thirteen - NPM package to check if a number is equal to 13,03-28-2018 01:03:05
+497,"How Runescape catches botters, and why they didn’t catch me",04-04-2021 09:20:08
+498,Selection sort visualization,12-03-2019 14:40:18
+499,"DigitalOcean accidentally deleted production database (April 5, 2017 update)",04-10-2017 04:28:10
+500,Why you should not develop apps for Windows 10,01-20-2016 02:45:28
+501,NY bill would provide tax credit for open source contributors,03-18-2016 10:15:46
+502,This is the code Comcast is injecting into its users web traffic,04-03-2013 05:41:38
+503,AWS released a summary of the S3 issue from earlier this week,03-02-2017 12:14:28
+504,"Build your own X, a collection of tutorials to build your own 3D renderer, Blockchain, Bot, Game, Neural Network, Search Engine, Text Editor, and much more! (27 things to build!)",01-30-2021 10:36:20
+505,"A Programmer Solved a 20-Year-Old, Forgotten Crypto Puzzle",04-30-2019 07:05:32
+506,"Computer latency, 1977-2017",12-24-2017 16:30:30
+507,YouTuber CodeBullet creates entertaining programming videos about AI. His most recent is a about Tetris!,07-23-2020 05:28:51
+508,Amazon: Not OK – why we had to change Elastic licensing,01-19-2021 10:33:32
+509,Germany completely open sourced their decentralized Corona Tracing App for anyone to analyze and improve.,06-16-2020 02:47:27
+510,Microsoft demos language model that writes code based on signature and comment,05-21-2020 02:18:18
+511,Happy international programmers day!,09-12-2016 03:21:41
+512,PE 101 - a windows executable walkthrough,03-05-2013 06:49:34
+513,Apple tells app devs to use IPv6 as it's 1.4 times faster than IPv4,07-30-2020 13:51:35
+514,Stanford University's Computer Science department is holding a unique MOOC called 'Code in Place.' This is a free course to learn python. It is a live class environment and not a typical video-based curriculum.,04-05-2020 20:49:55
+515,The Worst Typo I Ever Made - Tom Scott,06-01-2020 13:17:40
+516,The Devastating Decline of a Brilliant Young Coder,04-17-2020 22:47:44
+517,npm v5.7.0 critical bug destroys Linux servers,02-22-2018 09:39:07
+518,The Missing Semester of Your CS Education (MIT course),02-03-2020 12:25:21
+519,Showing a Craigslist scammer who's boss using Python,07-29-2018 12:23:41
+520,A DevOps Cautionary Tale or how a company with nearly $400 million in assets went bankrupt in 45-minutes because of a failed deployment.,07-26-2016 08:38:46
+521,Ireland donates its contact tracing app to the Linux Foundation to be open-sourced,07-20-2020 15:17:27
+522,How to stalk your Facebook friends Tinder profiles,07-21-2016 18:08:51
+523,"Mizage, a small development company that made Divvy, has won my heart today",06-29-2010 19:40:19
+524,Pixar's use of mass-spring systems (Pixar in a Box),12-16-2016 17:53:22
+525,Why did moving the mouse cursor cause Windows 95 to run more quickly?,07-03-2019 11:13:09
+526,The Onion releases fartscroll.js,05-09-2013 09:07:08
+527,R.I.P John Conway,04-11-2020 17:23:34
+528,"Chrome Extensions – AKA Total Absence of Privacy. Popular Google Chrome extensions are constantly tracking you per default, will receive your complete browsing history, all your cookies, your secret access-tokens used for authentication and shared links from sites such as Dropbox and Google Drive",11-19-2015 12:43:22
+529,Well-capitalized Seattle startup seeks Unix developers – Jeff Bezos (1994),11-05-2017 08:38:16
+530,Why Computers Can't Count Sometimes,11-12-2018 11:10:44
+531,Hacking QR code design - Creating QR codes that look like anything,01-08-2021 08:14:22
+532,The most recommended programming books of all-time. A data-backed list.,02-26-2020 10:23:52
+533,Yahoo open sources its search engine Vespa,09-27-2017 05:48:05
+534,Announcing SQL Server on Linux,03-07-2016 15:51:23
+535,VideoLAN is 20 years old!,02-01-2021 23:38:44
+536,kubethanos - a tool to kill half of your pods randomly to test your system for failures,11-29-2019 01:43:45
+537,Why does HTML think “chucknorris” is a color?,09-28-2020 23:59:06
+538,I created an ASCII simulation of Colliding Galaxies in C++ | code in the description,01-23-2021 11:26:05
+539,Using Python to find the longest word spellable with symbols from the periodic table.,05-16-2017 07:39:18
+540,How to contribute to an open source project on GitHub - a step-by-step guide,11-05-2016 11:06:24
+541,Microservice: it's the design of our backend!,04-09-2020 00:23:52
+542,One million PC owners combine their GPU power to fight COVID-19,04-02-2020 12:57:28
+543,Interesting video about Reddit’s early architecture from Reddit co-founder Steve Huffman.,07-01-2018 20:01:10
+544,We can't send mail more than 500 miles,04-08-2015 14:53:11
+545,Microsoft totally changed how it interviews software developers to make sure candidates have the actual skills to do the job,12-30-2018 12:30:26
+546,Computer Graphics from Scratch: now as a real book!,02-03-2021 07:20:40
+547,Insider: Oracle has lost interest in Java,09-30-2015 07:30:13
+548,"Best explanation of JavaScript timers, event loop and event queues I've seen",11-08-2018 04:57:10
+549,Create Diagrams in VS Code with Draw.io,05-10-2020 08:03:12
+550,Blockchain is not only crappy technology but a bad vision for the future,04-28-2018 16:16:34
+551,"Internet protocols are changing - Future of TCP, DNS, TLS and HTTP",12-12-2017 07:27:48
+552,150+ Stanford On-Campus Computer Science Courses Available Online,10-12-2020 23:23:26
+553,"Origin of the <blink> tag in HTML. ""We were drunk...""",12-30-2014 09:52:43
+554,You Are Not Google,06-07-2017 13:05:48
+555,24-core CPU and I can’t move my mouse,07-10-2017 02:36:23
+556,"if (osName.startswith(""windows 9""))",10-01-2014 17:37:26
+557,SQLite developer must have received a lot of phone calls,03-13-2015 07:02:18
+558,VVVVVV is now open source,01-10-2020 10:39:55
+559,On The Turing Completeness of PowerPoint,04-17-2017 13:31:19
+560,How I Used Python and Selenium To Get a Lifetime Supply of Garlic Pizza Sticks,10-15-2020 04:07:45
+561,An error message in Windows 10 is a mistake from 1974,11-04-2018 03:18:13
+562,᚛ᚈᚑᚋ ᚄᚉᚑᚈᚈ᚜ and ᚛ᚑᚌᚐᚋ᚜,10-22-2018 13:04:31
+563,Making a Video Game in a Browser's Tab Icon!,05-13-2019 10:33:16
+564,How do you make programmers work 60-80 hours per week?,04-08-2017 12:29:17
+565,Full Source Code Walkthrough of a Steam Game,09-28-2019 14:54:06
+566,Cryptography: Diffie-Hellman key exchange explained intuitively using colors,01-16-2018 00:05:27
+567,Airbnb moving away from React Native,06-19-2018 13:49:18
+568,How to get root on Ubuntu 20.04 by pretending nobody’s /home,11-11-2020 04:34:28
+569,"I was tired of opening 100s of tabs for internship apps. So, I made an app to apply to 100 internships with one click with Selenium and Python (source code linked)!",10-03-2019 01:07:20
+570,"IBM Closes Landmark Acquisition of Red Hat for $34 Billion; Defines Open, Hybrid Cloud Future",07-09-2019 09:14:41
+571,Microsoft acquired Xamarin,02-24-2016 14:04:43
+572,VS Code stories was acquired,11-13-2020 18:20:32
+573,Stumbled across this on youtube and thought it beautifully illustrated the different types of sorting algorithms,02-24-2018 04:07:47
+574,The final Python 2 release marks the end of an era,04-24-2020 15:13:52
+575,Today one of OVH Datacenter got destroyed in a fire. It might be the reason why some of the services you depend on are down. Also a good lesson for having a good disaster recovery plan!,03-10-2021 07:19:12
+576,"Oracle: ""the use of open source software has been declining rapidly in the private sector""",10-04-2017 10:13:21
+577,Software patent loses 9-0 in the Supreme Court,06-19-2014 11:33:45
+578,Google asks Supreme Court to overrule disastrous ruling on API copyrights,01-25-2019 13:39:54
+579,Evilpass: Slightly evil password strength checker,02-18-2017 06:50:36
+580,DeleteFB: Selenium script to delete all of your Facebook wall posts,05-21-2019 06:28:28
+581,Happy Birthday Linux,08-25-2017 06:29:46
+582,The Algorithm that enabled unlimited undo and fast save/copy-paste in Word,10-02-2017 18:28:16
+583,Why I became a software engineer,11-03-2016 12:38:53
+584,Google Is 2 Billion Lines of Code—And It’s All in One Place,09-16-2015 14:40:52
+585,"Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.",06-10-2015 19:04:38
+586,Modern JavaScript Explained For Dinosaurs,10-18-2017 13:40:34
+587,HTTP Error Code 451 Approved For Censored Web Pages,12-21-2015 12:08:53
+588,Build a working game of Tetris in Conway's Game of Life,09-14-2017 08:16:12
+589,"“Hello, world” from scratch on a 6502",09-14-2019 19:45:55
+590,Raytracing - in Excel!,03-23-2020 09:49:48
+591,"OpenAI's DALL·E - Generate images from just text descriptions, but how good is it?",01-09-2021 07:38:37
+592,"Linus Torvalds: After big Linux performance hit, Spectre v2 patch needs curbs -- ""Patch is causing as much as a 50 percent drop in performance in some Linux workloads.""",11-21-2018 16:06:20
+593,Dropout rate from 30 days of the coding challenge. Only 8.2% of them made it to the very last day.,08-14-2016 07:46:35
+594,How is NSA breaking so much crypto?,10-15-2015 09:22:11
+595,Facebook scales back AI flagship after chatbots hit 70% failure rate,03-06-2017 04:38:48
+596,Stack Overflow ~ Helping One Million Developers Exit Vim 😂,04-01-2019 09:50:07
+597,"Awww, now I feel bad for being a pirate [PIC]",12-16-2008 20:28:30
+598,Ray Tracing In Notepad.exe At 30 FPS,05-20-2020 09:05:42
+599,The AMD Radeon Graphics Driver Makes Up Roughly 10.5% Of The Linux Kernel,10-11-2020 20:41:59
+600,Intel open sourced Stephen Hawking’s speech system and it’s a .NET WinForms app,08-17-2015 08:05:45
+601,The greatest bug I never fixed,05-21-2014 15:23:38
+602,Five programming problems every Software Engineer should be able to solve in less than 1 hour,05-07-2015 21:46:39
+603,How snow physics works in Disney's Frozen,12-17-2013 00:17:04
+604,10% of Google's traffic is now IPv6,01-03-2016 09:16:11
+605,Why I quit my dream job at Ubisoft,01-22-2016 12:59:58
+606,Github Source Code Leaked Online,11-04-2020 21:04:16
+607,Hello. I'm a compiler.,02-19-2013 04:20:59
+608,How Do Computers Remeber - Sebastian Lague,12-04-2020 07:00:15
+609,This is why you sanitize user input: Chat hacked live by XSS/HTML code injection,12-03-2018 21:48:48
+610,Entering the Quantum Era—How Firefox got fast again and where it’s going to get faster,11-13-2017 10:52:13
+611,I just made my interpolation software [Dain-App] open-source on GitHub [Link in comments],12-03-2020 06:49:26
+612,How to Do Code Reviews Like a Human,10-12-2017 08:25:02
+613,Why some developers are avoiding app store headaches by going web-only,04-13-2021 14:28:09
+614,"How we broke PHP, hacked Pornhub and earned $20,000",07-23-2016 20:59:30
+615,"Frances Allen, Who Helped Hardware Understand Software, Dies at 88",08-08-2020 19:32:55
+616,A first look at Unreal Engine 5,05-13-2020 11:36:01
+617,Why programmers are not paid in proportion to their productivity,04-22-2018 08:17:59
+618,Taking over programming position from a grad student going to IBM... found this code - Imgur,01-15-2013 00:29:02
+619,Jetbrains offer their entire suite of tools for free for any student in high-school or college.,10-18-2018 12:01:53
+620,John Carmack: My Steve Jobs Stories,05-14-2018 13:07:35
+621,How to C (as of 2016),01-08-2016 07:16:07
+622,"""I Contribute to the Windows Kernel. We Are Slower Than Other Operating Systems. Here Is Why."" [xpost from /r/technology]",05-11-2013 03:36:43
+623,"lunatic86, an x86 emulator written in Lua running in OpenComputers running in Minecraft running on Java",07-20-2018 07:41:06
+624,"Cyberpwned, an automatic solver for Cyberpunk's hacking minigame using OCR, available now on Android! Play Store approval is pending, but you can side-load the current release and take a look at the (horrible, messy) source code.",12-24-2020 07:11:48
+625,Developer forks leading open source chess engine and charges €100 for it. Don't fall for it.,02-18-2021 15:34:33
+626,Firefox 85 Cracks Down on Supercookies,01-26-2021 14:29:32
+627,Debugging memory corruption: who the hell writes “2” into my stack?!,04-25-2016 13:21:11
+628,Turing Award goes to Sir Tim Berners-Lee,04-04-2017 09:20:32
+629,"[Squally] - New Mini-Game to Teach x86/x64 Registers, Pointers, Segfaults, Addressing",05-04-2019 21:18:38
+630,How DOOM fire was done,12-29-2018 02:41:45
+631,Xbox360 -> Windows executable converter,10-15-2017 02:43:26
+632,A manually curated list of 240+ popular programming podcast episodes,07-04-2017 06:11:33
+633,The Last Patent on AC-3 (Dolby Digital) Expires at Midnight,03-19-2017 13:27:49
+634,“I Want to Know What Code Is Running Inside My Body”,08-08-2016 23:04:11
+635,Blockchain for dummies,02-05-2017 08:57:34
+636,Understanding git for real by exploring the .git directory,02-01-2020 07:58:19
+637,Thread by ex-Product Manager at Google on why Google Cloud Platform lost to AWS despite having better tech,12-30-2020 10:36:41
+638,"Goodbye, Sourceforge!",05-31-2015 00:31:26
+639,RIP Katherine Johnson: The extraordinary NASA mathematician astronauts trusted over computers,02-25-2020 12:35:20
+640,Excel adds JavaScript support,05-08-2018 01:33:49
+641,Steve Jobs has just gone mad,04-09-2010 10:07:20
+642,Wat...,02-17-2013 12:40:24
+643,"Oh, neat, it's a site that looks Windows 3.1. ...wait, it works. Wait... Minesweeper?!",01-23-2010 19:45:48
+644,93% of Paint Splatters are Valid Perl Programs,04-04-2019 13:32:48
+645,"Why ""blank"" Gets You Root on macOS",11-29-2017 07:19:51
+646,Stack Overflow’s 2018 Developer Survey reveals programmers are doing a mountain of overtime,04-04-2018 03:42:38
+647,"A buttplug hacker talks Security, Consent and why he hacked a Buttplug",08-15-2019 17:57:32
+648,Ken Thompson's Unix password,10-09-2019 10:49:23
+649,We have an employee whose last name is Null. He kills our employee lookup app when his last name is used as the search term,04-27-2012 12:16:45
+650,I made 100 snakes fight with each other,05-17-2020 11:32:16
+651,"In 2008, Jeff Atwood hosted a poll on his blog of domain ideas for a website that he planned on launching with his friend Joel Spolsky. The option “stackoverflow.com” won with 72 votes. Here is the poll:",02-24-2021 10:29:43
+652,"As predicted, more branch prediction processor attacks are discovered",03-27-2018 09:49:09
+653,"Microsoft tries to make a Debian/Linux package, removes /bin/sh",06-11-2018 13:20:13
+654,Kite injected telemetry into the third most popular Sublime package,08-01-2017 11:06:40
+655,"I interviewed John Backus shortly before his death. He told me his work in functional programming languages failed, and would likely always fail, because it was easy to do hard things but incredibly difficult to do simple things.",07-16-2018 21:05:56
+656,"I created Interviews.school – a complete guide to prepare for the coding interviews. Everything from resume to algorithms to compensation, plus curated best Leetcode problems.",11-09-2020 04:24:57
+657,The `fuck` command is really useful for those of you who just came back to work from the holidays.,01-04-2016 13:42:17
+658,I wish somebody had told me this when I started.,05-04-2015 02:50:19
+659,Atlassian just sold Hipchat to Slack,07-26-2018 16:27:37
+660,How do I remove the first 300 million lines from a 700 GB txt file on a system with 1 TB max disk space?,09-27-2020 19:53:36
+661,ARM: UK-based chip designer sold to US firm Nvidia,09-14-2020 04:01:51
+662,Great interactive tutorial for learning Git branching (and more)!,11-09-2018 05:16:15
+663,This AI Restores Old Photos with Damages Automatically,09-25-2020 04:25:38
+664,Quadsort: Introduction to a new stable sorting algorithm faster than quicksort,02-13-2020 12:12:32
+665,Coder of 37 years fails Google interview because he doesn't know what the answer sheet says.,04-26-2018 14:48:13
+666,11 podcasts I listen to to improve as a software engineer,06-16-2016 00:13:17
+667,"This, kids, is why GET requests should be idempotent.",05-01-2018 04:43:36
+668,IBM has open sourced it's own JDK as Eclipse OpenJ9!,09-16-2017 06:12:14
+669,We should stick with the old and boring SQL,03-21-2017 04:03:13
+670,How Much Does an Experienced Programmer Use Google?,07-02-2015 15:38:23
+671,GitHub is now free for teams - The GitHub Blog,04-14-2020 12:08:00
+672,"NPM suddenly fails worldwide with ""ERR! 418 I'm a teapot"" error.",05-29-2018 00:04:28
+673,Warning: Don’t Download Software From SourceForge If You Can Help It,06-10-2015 11:39:05
+674,"Less stress, more productivity: why working fewer hours is better for you and your employer",08-19-2016 10:23:01
+675,Sublime Text 4 released,05-21-2021 00:27:16
+676,"Windows 10 quietly got a built-in network sniffer, how to use",05-22-2020 23:12:36
+677,Coding return on time investment always impresses me. A 30 hour project saved ~11 man-hours per day.,03-26-2019 14:16:45
+678,"In MySQL, never use “utf8”. Use “utf8mb4”",06-14-2018 06:46:32
+679,"Microsoft announces a C++ library manager for Linux, macOS and Windows",04-24-2018 19:08:06
+680,This is a violation of the TCP specification,12-19-2017 17:48:17
+681,in the glossary of my programming textbook... [PIC],04-28-2010 18:55:52
+682,University of Minnesota security researchers apologize for deliberately buggy Linux patches,04-26-2021 10:26:41
+683,Supreme Court allows blind people to sue retailers if their websites are not accessible,10-07-2019 16:39:24
+684,The Problem You Solve Is More Important Than The Code You Write,06-21-2018 23:36:23
+685,Software engineering != computer science,08-06-2017 13:07:09
+686,Windows 95 UI Design,12-27-2019 01:46:36
+687,Programming Doesn’t Require Talent or Even Passion,05-18-2016 04:20:59
+688,Made our subscription management system open source after our startup failed,12-19-2020 03:29:31
+689,Don't Get Clever with Login Forms,02-16-2019 08:52:31
+690,The largest Git repo on the planet,05-24-2017 12:14:36
+691,"Guy asks software maker for a crack, read the serial keys they provide him with.",09-15-2009 12:57:47
+692,A Conspiracy To Kill IE6,05-01-2019 13:04:23
+693,On the Effectiveness of Visible Watermarks - Google found a way to automatically remove stock photo watermarks,08-18-2017 15:35:17
+694,If Carpenters Were Hired Like Programmers,01-16-2013 22:50:22
+695,Dear Google Cloud: Your Deprecation Policy is Killing You,08-15-2020 05:51:38
+696,Xamarin becomes free and open-source,03-31-2016 11:54:06
+697,"Leaky John Deere API’s: Serious Food Supply Chain Vulnerabilities Discovered by Sick Codes, Kevin Kenney & Willie Cade",05-24-2021 17:38:36
+698,Programming Fibonacci on a 8 bits self made breadboard computer,12-11-2016 09:59:41
+699,"Remember that A+B=C regex? I felt it wasn't ridiculous enough, so I added negative number AND decimal support. Candidate for craziest regex ever made?",11-02-2018 07:27:46
+700,"​Linus Torvalds talks frankly about Intel security bugs: ""Linus Torvalds thinks Intel has gotten better about keeping the Linux open-source community in the loop with CPU security problems, but it started out really badly. And it's still not fair that Linux has to fix hardware problems.""",09-03-2018 06:38:53
+701,SerenityOS: From zero to HTML in a year,10-10-2019 05:04:26
+702,The New Firefox and Ridiculous Numbers of Tabs,07-22-2017 03:51:23
+703,What I Wish I Knew When I Started My Career as a Software Developer,01-22-2015 11:54:47
+704,"Google shows how to explain a system failure in an 
+adult and responsible way",09-02-2009 00:50:49
+705,A visual explanation of how compression algorithms work,09-25-2017 21:49:40
+706,XKCD-inspired StackSort,03-18-2013 13:38:40
+707,Accenture sued over website redesign so bad it Hertz: Car hire biz demands $32m+ for 'defective' cyber-revamp,04-27-2019 10:02:51
+708,"Reverse engineering how Publishers are detecting adblock, and how adblockers are working around these checks",12-05-2016 10:47:32
+709,US supreme court has agreed to hear the Google vs Oracle case about API definitions and usages,11-15-2019 16:37:22
+710,"Crypto 101 - an introductory course on cryptography, freely available for programmers of all ages and skill levels",12-02-2016 13:19:49
+711,Visualization of Reddit votes and comments in realtime [beautiful JS],10-06-2010 08:41:59
+712,"How we beat Skype, Facetime, and Google Hangouts on both delay and video quality.",04-11-2018 14:52:42
+713,"Someone suggested I should host my website on my own OS. For that we'll need a web server, so here's me building a basic web server in C++ for SerenityOS!",02-09-2020 08:41:47
+714,Today is the 21th anniversary of the oldest temporary hack still in Linux kernel,04-22-2017 03:10:57
+715,The Day AppGet Died,05-26-2020 09:36:24
+716,"“It never gets easier, you just go faster.”",08-09-2020 22:26:26
+717,What happens when the maintainer of a JS library downloaded 26m times a week goes to prison for killing someone with a motorcycle? Core-js just found out,03-26-2020 14:43:29
+718,"Google just open sourced something called ‘Parsey McParseface,and it could change AI forever",05-12-2016 17:07:56
+719,Why does Google prepend while(1); to their JSON responses?,05-06-2017 13:00:47
+720,"YouTube decided to remove annotations for good, I decided to write something to save them to the WayBackMachine, for good.",01-14-2019 18:57:16
+721,Flappy bird in 341 bytes,11-29-2020 09:53:15
+722,Dolphin Emulator - Ubershaders: A Ridiculous Solution to an Impossible Problem,07-30-2017 04:13:59
+723,“I Could Rewrite Curl”,05-20-2021 08:51:38
+724,The Illustrated TLS Connection — Every byte of a TLS connection explained and reproduced,10-12-2018 09:05:53
+725,"WOW: Researchers in the Netherlands have created the first multi-node quantum network, a step closer to building a ""quantum internet"" using entangled particles!",05-08-2021 06:01:20
+726,Easily add a NSA backdoor to your Rails app.,06-08-2013 13:31:00
+727,15 sorting algorithms visualized. It really shows a clear image of how each one works...,10-11-2014 08:55:52
+728,How the Dreamcast copy protection was defeated,12-11-2018 06:13:24
+729,​Microsoft and Canonical partner to bring Ubuntu to Windows 10,03-30-2016 03:22:12
+730,Reminder: The world is essentially out of IPv4 addresses. Make sure your stuff works with IPv6!,02-05-2019 11:25:49
+731,"Neural network cars racing game, hope you like it!",11-17-2020 23:01:16
+732,Software disenchantment,09-17-2018 16:58:33
+733,"Marvin Minsky, Pioneer in Artificial Intelligence, Dies at 88",01-25-2016 18:53:37
+734,Simpsons in CSS,06-24-2014 05:24:57
+735,Arm kills off its anti-RISC-V smear site after own staff revolt,07-10-2018 17:40:19
+736,"On Demand Minecraft Server which operates at minimal costs for small, casual communities. I’ve just open sourced it and hope it sees some use!",06-27-2019 19:31:34
+737,My favourite Git commit,10-18-2019 09:43:24
+738,This guy is programming a nes emulator from scratch. Link to first episode,09-07-2019 08:07:22
+739,Announcing the Open Sourcing of Windows Calculator,03-06-2019 14:00:23
+740,"I created a website so our executives could monitor the status of our web servers.  They requested I improve it so they could ""see it better"" when Tomcat crashes.  This is what awaits them...",08-05-2010 14:30:17
+741,I made an NES emulator. Here's what I learned about the original Nintendo.,04-02-2015 10:30:41
+742,Intro to hardware programming - How to program microcontrollers in C,08-24-2020 09:19:21
+743,"Docker Hub Hacked – 190k accounts, GitHub tokens revoked, Builds disabled",04-27-2019 00:23:53
+744,Student scraped India's unprotected college entrance exam result and found evidence of grade tampering,06-05-2013 01:57:04
+745,"Overclocking tools for Nvidia GPUs suck, I made my own.",03-15-2017 05:11:52
+746,Fixing Mass Effect black blobs on modern AMD CPUs,07-19-2020 07:28:22
+747,DOOM Captcha - Captchas don't have to be boring,05-25-2021 04:44:00
+748,Coding in color,01-26-2014 11:16:15
+749,"Text Rendering Hates You, a random collection of weird problems you need to deal with when rendering text",09-29-2019 07:07:02
+750,Ray tracing in Excel,01-15-2021 14:53:04
+751,Netflix opensources its first D library: Vectorflow,08-02-2017 14:50:43
+752,JetBrains Academy for learning code launches for free during COVID-19 pandemic,05-01-2020 09:56:00
+753,HTTP Error Code 418 I'm a Teapot is about to be removed from Node. We've gotta do something. [x-post /r/webdev],08-10-2017 19:53:10
+754,Should I fire a software engineer for always working on his side projects during office hours? [Quora],04-27-2017 18:29:14
+755,"Archive.org has published the Malware Museum, where you can run old DOS viruses",02-05-2016 09:16:41
+756,"DMCA Notices Nuke 8,268 Projects on Github",06-29-2016 08:05:39
+757,Startup Interviewing is Fucked,06-28-2018 09:32:02
+758,How Shazam Works: audio fingerprinting and indexing,12-15-2018 18:37:33
+759,Amazon web services explained by simple visuals,10-26-2018 10:07:08
+760,Code golfing challenge leads to discovery of string concatenation bug in JDK 9+ compiler,06-05-2018 02:19:10
+761,GitHub blocks FLoC on all of GitHub Pages,04-28-2021 06:50:21
+762,Your statement is 100% correct but misses the entire point,04-13-2020 07:20:13
+763,"PathFinding algorithm, visually explained",04-23-2013 16:46:42
+764,I made a playlist of 129 videos on programming that made me a better developer,12-21-2018 16:41:19
+765,KHRONOS just released Vulkan,02-16-2016 09:03:48
+766,"Titus, the Netflix container management platform, is now open source",06-16-2018 13:31:56
+767,0.30000000000000004,11-13-2015 05:43:52
+768,Most software engineering interview questions of hot tech companies in one place,12-23-2014 14:13:08
+769,How the Other Half Works: an Adventure in the Low Status of Software Engineers,07-14-2014 16:58:10
+770,HTTPS has been compromised -- not sure why this hasn't made the rounds on reddit yet,08-06-2013 00:36:15
+771,My company released a course for helping beginners learn Python for Data Science. This is an initial draft and we do not plan to monetize it any way. Please feel free to help us make it better with your suggestions.,06-17-2020 09:11:15
+772,"“At some point, we programmers are going to have to admit that we really can't judge another programmers technical abilities in a 60 min interview”",05-02-2019 15:10:43
+773,Testing in Production the Netflix Way,07-23-2018 14:04:18
+774,Whistleblower: Ubiquiti Breach “Catastrophic”,03-30-2021 14:31:32
+775,"Linus: Don't use ZFS ""until I get an official letter from Oracle that is signed by their main legal counsel or preferably by Larry Ellison himself that says that yes, it's ok to do so and treat the end result as GPL'd.""",01-09-2020 21:38:33
+776,How I Debugged a Non Reproducible Bug with 20k Production crashes on a React Native App,12-05-2018 09:30:20
+777,A step-by-step guide how to write your own simple OS from scratch using C and ARM assembler.,06-06-2018 23:05:40
+778,How I Became HackerRank #1 In Two Hours,10-29-2016 10:47:51
+779,Apollo 11 source code,01-30-2016 13:07:51
+780,Do Experienced Programmers Use Google Frequently? · Code Ahoy,04-30-2016 15:35:38
+781,Google Launches Android Studio 2.0 With Improved Android Emulator And New Instant Run Feature,11-23-2015 11:34:27
+782,CSS powered 3D engine,02-24-2019 04:43:07
+783,"The value that senior engineers provide, and a few reasons to stop worrying about your technical skills becoming obsolete",09-05-2020 09:08:55
+784,"This man thought opening a TXT file is fine, he thought wrong",04-03-2021 10:07:38
+785,​GitLab moves from Azure to Google Cloud Platform,06-25-2018 18:26:27
+786,NASA's 10 Coding Rules for Writing Safety Critical Program,04-21-2017 11:41:40
+787,You Say You Want An Education? A 4-year university computer science curriculum entirely on Coursera,09-26-2012 09:04:48
+788,How to teach Git,01-16-2019 07:30:11
+789,Intel ME cracked via a functioning USB JTAG,11-10-2017 08:20:06
+790,Google confirms next Android version won’t use Oracle’s proprietary Java APIs,12-29-2015 18:59:43
+791,Ray tracing using ASCII,01-24-2021 06:23:05
+792,[WARNING] Intel Skylake/Kaby Lake processors: broken hyper-threading,06-25-2017 13:13:46
+793,Programming books you might want to consider reading,10-16-2016 07:52:45
+794,"It's official, Chromium is coming to Microsoft Edge",12-06-2018 12:25:42
+795,What are the Most Disliked Programming Languages?,10-31-2017 09:45:43
+796,Microsoft brings GPU compute support to Windows Subsystem for Linux,06-18-2020 01:32:45
+797,But where do developers actually CODE in these offices?,01-15-2015 12:57:33
+798,"Oracle JDK downloads page now require an Oracle account. Just to download the official Oracle Java JDK for personal use, you must provide your full personal and work details.",09-08-2019 19:34:34
+799,Why software engineers don't write documentation - it's bloody hard!,04-29-2021 07:44:24
+800,"Firebase founder's response to last week's ""Firebase Costs increased by 7000%!""",05-22-2017 07:17:32
+801,A list of Computer Science courses with video lectures,11-22-2016 03:21:08
+802,"U.S. has almost 500,000 job openings in cybersecurity",05-23-2021 05:54:14
+803,Java 10 released!,03-20-2018 12:33:47
+804,A website designed to disguise reddit.com's frontpage as working on Java code.,02-11-2011 20:04:27
+805,How to Pay Programmers Less,12-06-2016 10:15:59
+806,Windows 10 is getting Linux files integration in File Explorer,04-08-2020 15:43:22
+807,"Bot Land, a game where you fight others via code",09-30-2019 03:53:33
+808,Google's Site Reliability Engineering book now under Creative Commons,01-28-2017 01:19:59
+809,NASA's ten coding commandments,07-17-2015 15:50:38
+810,500 Free Computer Science Courses from the World’s Top CS Universities,04-19-2020 12:41:09
+811,Computer Color is Broken,02-09-2018 03:56:02
+812,ASCII fluid dynamics,11-24-2013 19:54:34
+813,Number Porn — Animated Factorisation Diagrams,11-15-2012 10:19:48
+814,WINE fixed a 5 years old bug that makes Photoshop CS5 usable,12-19-2017 06:24:04
+815,"If it's not fun anymore, you get nothing from maintaining a popular package",11-27-2018 01:26:14
+816,SQL is 43 years old - here’s 8 reasons we still use it today,05-02-2017 07:45:51
+817,Let's Encrypt Has Issued a Billion Certificates,02-29-2020 12:29:10
+818,"Toronto created more tech jobs in 2017 than Seattle, New York, DC, and the Bay Area combined. Canada's Ottawa's growth rate put it as the fastest growing tech market in North America. U.S. markets rising in the study’s ranks include Cleveland and Columbus, in Ohio, and San Diego.",08-03-2018 09:33:15
+819,Apps crashing on startup in production due to Facebook SDK - again,07-10-2020 08:21:42
+820,"Apple, Your Developer Documentation is Garbage",10-28-2019 09:54:33
+821,"Google just open sourced Filament - a physically based rendering engine for Android, Windows, Linux and macOS",08-03-2018 22:57:24
+822,Path to a free self-taught graduation in Computer Science,10-04-2015 12:11:39
+823,Former Software Engineer at Spotify on their revolutionary (and kind of insane) solution of using self-contained iframes to increase team autonomy. (excerpt in comments),07-18-2018 22:06:02
+824,My sister and I are starting an animated coding series to help ease the barrier of entry for beginner programmers. We hope this can encourage those without a technical background to give coding a try!,10-17-2020 17:26:10
+825,Abstract Wikipedia announcement: Wikimedia wants to create language agnostic structured database of facts which can be compiled as articles in multiple languages,07-02-2020 17:50:42
+826,Microsoft joins Bytecode Alliance to advance WebAssembly – aka the thing that lets you run compiled C/C++/Rust code in browsers,04-28-2021 17:47:40
+827,DigitalOcean's Hacktoberfest is Hurting Open Source,09-30-2020 17:16:41
+828,Where GREP Came From - Brian Kernighan,07-06-2018 16:19:29
+829,"The Linux codebase has over 3k TODO comments, many from over a decade ago",12-29-2019 23:24:59
+830,"As companies embrace AI, a shortage of Machine Learning and AI specialists opens up",10-20-2018 07:53:54
+831,Google made a tiny error and it broke half the internet in Japan,08-29-2017 04:12:17
+832,How Steve Jobs (allegedly) explained OOP.,10-25-2015 09:48:23
+833,Old Reddit source code,03-29-2018 14:53:21
+834,Oracle is massively ramping up audits of Java customers it claims are in breach of its licences – six years after it bought Sun Microsystems,12-17-2016 09:56:04
+835,"GB Studio is an open-source, visual, game maker to build Nintendo Game Boy ROMs",04-22-2019 09:09:52
+836,The code I’m still ashamed of (2016),07-27-2020 08:43:58
+837,Made my personal site into a desktop environment. Influenced by Windows & macOS.,11-27-2020 23:25:40
+838,Thinking about quickly writing an HTTP server yourself? Here is a simple diagram to help you get started.,03-07-2014 03:29:58
+839,Dave Baggett's answer to Programming Interviews: What's the hardest bug you've debugged?,10-30-2013 14:35:44
+840,Learn Git in 20 Minutes,07-26-2018 00:01:55
+841,I Made an Extension for Visual Debugging in VS Code,02-23-2020 07:43:44
+842,"Engineers Say 'No Thanks' to Silicon Valley Recruiters, Citing Ethical Concerns",08-12-2018 18:19:07
+843,Hackers Remotely Kill a Jeep on the Highway—With Me in It,07-21-2015 11:12:43
+844,Our compression algorithm is up to 13 times faster than Facebook's Gorilla.,10-11-2017 10:51:32
+845,Slack Is Fumbling Developers And The Rise Of Developer Discords,08-02-2020 09:14:33
+846,"""I decided to uncancel my small part of the project. I had been paid to do a job, and I wanted to finish it. My electronic badge still opened Apple's doors, so I just kept showing up.""",10-31-2011 05:33:16
+847,10/GUI is one of the most dramatic reimaginations of the desktop user interface I’ve seen in a long time.,10-13-2009 06:47:45
+848,"Our research shows that people love two things: failed Microsoft technologies and obscure Javascript libraries. Naturally, we decided to combine the two.",05-19-2013 08:23:49
+849,"A single line shell script, which returns you your IP address and its location. I created this to check if a VPN I'm using actually works, and thought other people might find some use for this.",07-31-2020 13:21:38
+850,DeepMind and Blizzard open StarCraft II as an AI research environment,08-09-2017 13:15:27
+851,A computer teaches itself how to play a video game,06-13-2015 15:31:26
+852,Terry Davis of TempleOS has passed away,09-01-2018 18:08:50
+853,How Facebook delivers cover photos in 200 bytes,08-14-2015 13:45:55
+854,GitHub investigating crypto-mining campaign abusing its server infrastructure,04-03-2021 05:25:50
+855,"99% of the Git commands you'll need at work, demonstrated in a single script",10-08-2019 13:02:17
+856,Game Of Life - implemented in Game Of Life,08-26-2014 06:30:36
+857,Searching for Bitcoins in GitHub repositories with Google BigQuery,12-23-2017 06:10:25
+858,Why GNU grep is fast,08-24-2016 01:52:07
+859,Grace Hopper - why does it takes so long for a message to come from a satellite?,05-12-2019 06:51:10
+860,Python 3.8 released,10-14-2019 16:47:56
+861,I made a thing to browse the history of a file from GitHub,02-06-2019 08:17:15
+862,"Microsoft launches site dedicated to their Open Source projects, programs, and tools",08-13-2020 14:17:50
+863,I made a program that shows how effective gerrymandering can be in python - source code & explanation in description,01-25-2021 01:36:26
+864,"Self-taught, free CS education",02-11-2018 17:11:56
+865,Next: a dating extension to hook-up with fellow nerds 🤓,10-30-2020 11:06:47
+866,"Following yesterday's post here, Subway did some optimizing in the HTML source on their website. They wrote a thank you note for reddit in the comments! (ctrl-f ""GoToCountry"")",09-30-2010 13:56:31
+867,Swift is open source,12-03-2015 10:17:43
+868,"Clone Wars – a list of 70 open-source clones of sites like Airbnb, TikTok, Netflix",03-13-2021 12:29:09
+869,Daily WTF: This is why you should NEVER trust user input. Ever. ,05-11-2009 10:13:49
+870,Hacktoberfest now requires PRs be in a repo with hacktoberfest topic and be accepted · GitHub,10-02-2020 19:23:31
+871,"""Don't run this on any system you expect to be up"" they said, but we did it anyway",07-19-2017 06:03:59
+872,$36k Reward for Remote Code Execution Bug on Google App Engine,05-21-2018 03:37:49
+873,Comcast: Simulating shitty network connections so you can build better systems,01-28-2015 11:28:14
+874,"""over the last ten to fifteen years I’ve noticed a quiet crisis unfolding in software development leading to low quality applications, unhappy employees and unhappy users. Silver bullet solutions keep creeping into our awareness (Scrum, anyone?) and predictably keep letting us down.""",05-27-2016 17:21:21
+875,Genius approach to silencing the iPhone camera shutter sound effect.,05-23-2014 12:22:13
+876,"Applying the Linus Tarvolds ""Good Taste"" Coding Requirement",10-25-2016 14:37:37
+877,11 Best Programming Fonts,05-15-2018 03:26:19
+878,"Donald Knuth turns 80, seeks problem-solvers for 'The Art of Computer Programming'",01-21-2018 15:09:39
+879,Blockchain 2018 == NoSQL 2009,06-24-2018 12:48:14
+880,Curiosity was built with 2.5 million lines of C.,08-06-2012 15:39:13
+881,This guy built a game console that outputs on an oscilloscope from scratch (and videogames for it!),11-07-2019 05:01:46
+882,Learn vim in the browser with interactive exercises designed to help you edit code faster,01-29-2021 05:44:40
+883,How JetBrains Lost Years of Customer Loyalty in Just a Few Hours,09-04-2015 02:21:58
+884,"Many states using antiquated programming languages for their unemployment systems ie COBOL, a half-century old language. These sometimes can't handle the demand, suffer from lack of programmers, and require extensive reprogramming for even the smallest of changes",03-03-2021 05:30:42
+885,Tom Scott - 2 generals problem and food delivery app screw up,08-13-2019 05:56:30
+886,Linux kernel maintainer says 'No.' to AMDGPU patch,12-08-2016 23:22:40
+887,"Site that shows you the assembly generated by compilers (C++, Rust, Fortran, C, D, and more)",11-10-2018 08:10:57
+888,The Grand Unified Theory of Software Architecture,10-27-2020 14:54:46
+889,A futuristic / cyberpunk GUI framework for web apps,08-26-2020 14:41:42
+890,Edsger Dijkstra – The Man Who Carried Computer Science on His Shoulders,10-30-2020 16:11:43
+891,CSS Only Chat,05-08-2019 05:56:56
+892,"My site 'Use The Index, Luke!' about SQL indexing was recently updated and is available in five languages",01-02-2018 13:09:01
+893,Turning a MacBook into a Touchscreen with $1 of Hardware,08-07-2019 01:11:29
+894,MAME is now Free and Open Source Software,03-05-2016 05:34:13
+895,"Bye bye Mongo, Hello Postgres",12-19-2018 15:09:31
+896,"From 2001: ""I will eat a week's pay if OOP is still in vogue in 2015.""",12-02-2015 17:00:38
+897,"Rosetta Code - Rosetta Code is a programming chrestomathy site. The idea is to present solutions to the same task in as many different languages as possible, to demonstrate how languages are similar and different, and to aid a person with a grounding in one approach to a problem in learning another.",12-25-2013 08:27:41
+898,Free: a terrible programming language that targets an even worse programming language.,02-02-2020 02:39:17
+899,"TIL Daniel Stenberg, the author and the maintainer of the cURL, does live developing/debugging on Twitch!",04-30-2019 18:44:42
+900,Every previous generation programmer thinks that current software are bloated,09-19-2018 08:39:50
+901,I made a program that recognizes Rubik's cube and shows how to solve it using augmented reality,05-30-2016 15:04:07
+902,"Bruce Schneier: ""Someone Is Learning How to Take Down the Internet""",09-16-2016 15:44:22
+903,Researcher Finds CSS-Only Method to Track Mouse Movements - was able to do this by creating a grid of HTML DIVs that utilize CSS :hover selectors to request a new background image when your mouse moves over a box on the grid,05-09-2019 10:41:59
+904,The rise of 'pseudo-AI': how tech firms quietly use humans to do bots' work,07-07-2018 13:32:11
+905,The amazing Grant Sanderson (3Blue1Brown) demonstrates seam carving in Julia.,04-17-2021 07:56:48
+906,GIPHY open-sources their celebrity detection deep learning model and code,03-07-2019 08:16:26
+907,Azure AD is down worldwide,03-15-2021 17:28:47
+908,Working digital clock in conway's game of life,05-18-2020 08:59:46
+909,"I've written a survival guide for fellow junior developers, check it out",11-12-2016 08:13:17
+910,Amazon software engineer interview,07-08-2016 15:32:54
+911,"Code rant: Learn To Code, It’s Harder Than You Think",12-04-2015 10:48:12
+912,Today is 0x100 day of the Year! Happy Programmers' Day!,09-13-2015 08:46:03
+913,The Beggar CEO and Sucker Culture,11-30-2015 04:42:17
+914,If I get hit by a truck...,01-12-2013 12:15:42
+915,"Windows 10 source code: over 0.5 TB source code, over 4 million files, more than a half million folders",04-12-2019 13:17:31
+916,If people tried to pay for other services and goods like they try to pay for programming services,12-14-2010 12:18:06
+917,python implementation of face swapping for video from a single image (deepfakes) no training + demo,08-28-2019 21:22:21
+918,"Gamedev in Hardmode, Snake in pure assembly language on a homemade cpu.",08-31-2020 13:28:59
+919,Using NSA's Ghidra to make a keyboard backlight match in-game graphics of SuperHexagon,04-10-2019 15:46:33
+920,Google Instant Released,09-08-2010 12:34:51
+921,"""PSD is not my favourite file format.""",04-22-2009 11:10:26
+922,Half of curl’s vulnerabilities are C mistakes,03-09-2021 07:43:20
+923,"US court fully legalized website scraping and technically prohibited it - On September 9, the U.S. 9th circuit court of Appeals ruled that web scraping public sites does not violate the CFAA (Computer Fraud and Abuse Act)",01-29-2020 09:47:58
+924,Wind Waker Graphics Analysis,11-11-2016 11:42:51
+925,Life is too short to not code in a programming language based on the one liners of Arnold Schwarzenegger,07-13-2015 08:56:47
+926,"Ruby off the Rails: Code library yanked over license blunder, sparks chaos for half a million projects",03-28-2021 17:41:57
+927,Brain scans reveal coding uses same regions as speech,06-05-2020 23:21:00
+928,Why does HTML think “chucknorris” is a color?,05-03-2021 09:52:37
+929,Multi-threaded programming quizzes,03-16-2019 08:57:17
+930,I wandered off and built an IDE,04-06-2018 07:09:55
+931,What programming languages are used late at night? - Stack Overflow Blog,04-19-2017 10:20:29
+932,"Five years ago, Stack Overflow launched. Then, a miracle occurred.",09-16-2013 14:31:13
+933,The Story of the PS2’s Backwards Compatibility From the Engineer Who Built It,03-07-2020 19:47:34
+934,"Maintaining Notepad is not a full-time job, but it’s not an empty job either",05-21-2018 19:09:39
+935,Visual Studio Live Share is now available.,05-11-2018 16:09:59
+936,"Reddit, I got the best present a girl developer could ever want. ",01-19-2010 02:06:19
+937,I Made an Audio Deepfake of Myself (and Obama!) - CNN Text-to-Speech trained on less than 15 minutes of audio!,03-27-2020 08:59:29
+938,Tron Legacy Boardroom Projection recreated in HTML5 (Github source in comments),08-04-2017 07:22:46
+939,In 1987 a radiation therapy machine killed and mutilated patients due to an unknown race condition in a multi-threaded program.,09-02-2015 12:30:02
+940,Programmers generate every possible melody in MIDI to prevent lawsuits,02-28-2020 13:16:47
+941,GitHub now supports following a repo for notifications of new releases only,11-27-2018 13:32:40
+942,I Suspect many Task Deadlines are Designed to Force Engineers to Work for Free,09-16-2020 16:48:10
+943,Top 10 data mining algorithms in plain English,05-17-2015 14:06:20
+944,"Are Your Programmers Working Hard, Or Are They Lazy?",01-10-2016 03:40:32
+945,BombSolver: Automatically defusing bombs in 'Keep Talking and Nobody Explodes' using IA & ML,09-08-2020 13:55:05
+946,Game industry vet draws ire from developers for defense of 80-hour workweeks,04-18-2016 19:28:51
+947,"TSB Train Wreck: Massive Bank IT Failure Going into Fifth Day; Customers Locked Out of Accounts, Getting Into Other People's Accounts, Getting Bogus Data",04-28-2018 09:16:02
+948,Playing APK Golf: Reducing an Android APK's size by 99.99%,10-10-2017 11:19:24
+949,Sony open sources the PS4 system compiler,01-29-2015 05:32:31
+950,Next Visual Studio Code update will bring blue icon back,10-24-2017 15:16:09
+951,Python 3.7.0 released,06-27-2018 19:03:10
+952,"Will C ever be beaten? This paper presents a study of the runtime, memory usage and energy consumption of twenty seven well-known software languages.",03-09-2020 08:54:53
+953,The 2038 problem is already affecting some systems,01-20-2020 11:21:16
+954,Always leave the code better than you found it,11-27-2020 18:38:25
+955,Type to Shoot HTML5 Game - My Entry for Mozilla's Game On,01-10-2011 18:15:56
+956,C++17 Standard Is Now Official,12-05-2017 00:36:46
+957,Stack Overflow Developer Survey 2017,03-22-2017 05:13:22
+958,Eigenvectors and Eigenvalues explained visually,09-05-2016 21:46:08
+959,Stacktrace or gtfo,09-15-2010 05:44:12
+960,"AMD's Answer To Nvidia's GameWorks, GPUOpen Announced - Open Source Tools, Graphics Effects, Libraries And SDKs",12-15-2015 09:44:18
+961,Do people write insane code with multiple overlapping side effects with a straight face?,07-20-2017 10:23:34
+962,Make a programmable mirror,09-12-2015 09:30:56
+963,How a guy built a Slack bot to help him find an apartment in San Francisco,08-28-2016 04:26:27
+964,Floating Point Visually Explained,09-28-2017 22:54:08
+965,Yesterday's Google outage was due to automated quota management reducing capacity on their IdM,12-15-2020 09:23:43
+966,Stack Overflow lays off 15%,05-08-2020 01:51:22
+967,"Oh, shit, git! - A collection of ""I did something wrong in Git and how to fix it""",05-31-2019 10:42:03
+968,How many of you have ever seen an actual floppy disk?,01-24-2010 18:41:57
+969,"Hey Reddit, what do you think of my site that lets you slide through old Reddit frontpages?",10-14-2010 09:56:15
+970,"""Federal officials will take the unprecedented step of asserting oversight over the software that operates self-driving vehicles when they publish a set of autonomous vehicle guidelines Tuesday, the White House said.""",09-19-2016 20:33:56
+971,"When naming your github repo, check the current list of porn movies to avoid DMCA complaints",01-10-2015 07:36:21
+972,The best advice I have ever read for starting a new job in development,02-02-2016 07:56:24
+973,"One person submitted 10% of the 18,500 Emacs bug reports over the past nine years",03-13-2017 16:28:46
+974,7 absolute truths I unlearned as junior developer,06-07-2019 20:41:25
+975,PSA: Stack Overflow dark mode beta is finally here!,03-30-2020 13:11:29
+976,The Chromium project finds that around 70% of our serious security bugs are memory safety problems. Our next major project is to prevent such bugs at source.,05-24-2020 08:57:07
+977,Migration Complete – Amazon’s Consumer Business Just Turned off its Final Oracle Database,10-15-2019 12:55:49
+978,Why was Doom developed on a NeXT?,09-01-2016 14:30:50
+979,Google Course: Technical Writing for Software Engineers,05-18-2021 00:49:05
