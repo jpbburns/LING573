@@ -1,4 +1,4 @@
-,title,created_utc
+idx,title,created_utc
 0,"There’s a reason that programmers always want to throw away old code and start over: they think the old code is a mess. They are probably wrong. The reason that they think the old code is a mess is because of a cardinal, fundamental law of programming: It’s harder to read code than to write it.",04-26-2018 09:24:12
 1,YouTube page load is 5x slower in Firefox and Edge than in Chrome because YouTube's Polymer redesign relies on the deprecated Shadow DOM v0 API only implemented in Chrome.,07-24-2018 10:46:57
 2,How I Got Paid $0 From the Uber Security Bug Bounty,12-25-2017 14:08:04
