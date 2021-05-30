@@ -91,7 +91,10 @@ class SingleBert:
         data_path = os.getcwd() + '/../data/subtask-2/{}'.format(data_file)
         df = pd.read_csv(data_path)
         idxs = df['idx']
-        sents = df['title']
+        try:
+            sents = df['title']
+        except KeyError:
+            pass
         timestamps = df['created_utc']
 
         ids, masks, types = (torch.tensor(x) for x in get_ids(sents, self.tokenizer, max_len=self.max_len))
@@ -212,13 +215,13 @@ def run_training():
 
 
 if __name__ == '__main__':
-    subset = '/subset{}'.format('1')
+    subset = '/subset{}'.format('2')
     for data_file in os.listdir(os.getcwd()+'/../data/subtask-2'+subset):
         pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
         s_bert = SingleBert(max_len=96)
         s_bert.predict(data_file, pre_t)
 
-    # data_file = 'subset1/askreddit.csv'
+    # data_file = 'example2.csv'
     # pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
     # s_bert = SingleBert(max_len=96)
     # s_bert.predict(data_file, pre_t)
