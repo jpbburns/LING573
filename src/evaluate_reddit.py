@@ -218,3 +218,8 @@ if __name__ == '__main__':
         s_bert = SingleBert(max_len=96)
         s_bert.predict(data_file, pre_t)
 
+    # data_file = 'subset1/askreddit.csv'
+    # pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
+    # s_bert = SingleBert(max_len=96)
+    # s_bert.predict(data_file, pre_t)
+
