@@ -96,10 +96,8 @@ class SingleBert:
 
         ids, masks, types = (torch.tensor(x) for x in get_ids(sents, self.tokenizer, max_len=self.max_len))
         dataloader = DataLoader(TensorDataset(ids, masks, types), batch_size=bs)
-        
-        ipdb.set_trace()
-        self.model.load_state_dict(torch.load(pretrained_tensor), map_location=torch.device(self.device))
-        #self.model.load_state_dict(torch.load(pretrained_tensor), map_location=self.device)
+        state_dict = torch.load(pretrained_tensor, map_location=self.device)
+        self.model.load_state_dict(state_dict)
         self.model.eval()
 
         pred = []
@@ -110,6 +108,7 @@ class SingleBert:
             logits = outputs[0]
             logits = logits.detach().cpu().numpy()
             
+            print(logits)
             pred.extend(logits)
 
         humor_scores = [self.balance(x) for x in pred]
