@@ -212,7 +212,8 @@ def run_training():
 
 
 if __name__ == '__main__':
-    for data_file in os.listdir(os.getcwd()+'/../data/subtask-2'):
+    subset = '/subset{}'.format('1')
+    for data_file in os.listdir(os.getcwd()+'/../data/subtask-2'+subset):
         pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
         s_bert = SingleBert(max_len=96)
         s_bert.predict(data_file, pre_t)
