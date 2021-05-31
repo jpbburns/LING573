@@ -87,15 +87,20 @@ class SingleBert:
         torch.cuda.empty_cache()
         return self
 
-    def predict(self, data_file, pretrained_tensor, bs=128):
-        data_path = os.getcwd() + '/../data/subtask-2/{}'.format(data_file)
-        df = pd.read_csv(data_path)
-        idxs = df['idx']
+    def proxy_humor(scores):
+        return
+
+    def predict(self, subset, data_file, data_path, pretrained_tensor, bs=128):
+        df = pd.read_csv(data_path + '/' + data_file)
         try:
             sents = df['title']
+            timestamps = df['created_utc']
+            idxs = df['idx']
+            scores = df['score']
+            upvote_ratios = df['upvote_ratio']
         except KeyError:
-            pass
-        timestamps = df['created_utc']
+            #ipdb.set_trace()
+            return
 
         ids, masks, types = (torch.tensor(x) for x in get_ids(sents, self.tokenizer, max_len=self.max_len))
         dataloader = DataLoader(TensorDataset(ids, masks, types), batch_size=bs)
@@ -115,9 +120,9 @@ class SingleBert:
             pred.extend(logits)
 
         humor_scores = [self.balance(x) for x in pred]
-        output = pd.DataFrame({'idx':idxs, 'title':sents, 'created_utc':timestamps, 'humor_scores':humor_scores})
+        output = pd.DataFrame({'idx':idxs, 'title':sents, 'created_utc':timestamps, 'score':scores, 'upvote_ratio':upvote_ratios, 'humor_scores':humor_scores})
         #output.to_csv('../outputs/D4/output/{}.csv'.format(), index=False)
-        output.to_csv(os.getcwd() + '/../data/subtask-2/humor_scores/{}'.format(data_file), index=False)
+        output.to_csv(os.getcwd() + '/../data/subtask-2/humor_scores/{}/{}'.format(subset, data_file), index=False)
 
     def balance(self, num):
         arr = np.linspace(0, 3, 16)
@@ -215,11 +220,18 @@ def run_training():
 
 
 if __name__ == '__main__':
-    subset = '/subset{}'.format('2')
-    for data_file in os.listdir(os.getcwd()+'/../data/subtask-2'+subset):
-        pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
+    for subset in ['funny', 'not_funny']:
         s_bert = SingleBert(max_len=96)
-        s_bert.predict(data_file, pre_t)
+        pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
+        data_path = os.getcwd()+'/../data/subtask-2/original/{}/'.format(subset)
+        for data_file in os.listdir(data_path):
+            s_bert.predict(subset, data_file, data_path, pre_t)
+
+    # subset = '/subset{}'.format('0')
+    # s_bert = SingleBert(max_len=96)
+    # pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
+    # for data_file in os.listdir(os.getcwd()+'/../data/subtask-2'+subset):
+    #     s_bert.predict(data_file, pre_t)
 
     # data_file = 'example2.csv'
     # pre_t = os.getcwd()+'/pretrained/single/Bert_single_regress_2epochs_32bs.pt'
