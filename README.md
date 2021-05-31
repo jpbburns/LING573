@@ -1,6 +1,18 @@
 # LING573
 Repository for LING573 coursework.
 
+# Deliverable 4
+
+Command Pipeline:
+python evaluate_reddit.py  # to generate humor scores for reddit data
+python normalize.py  # to generate normalized upvote scores for reddit data
+python run_correlation.py  # to generate output & results
+
+Spearman correlations and plot figures will be output to:
+../results/D4/
+Outputs of reddit data with predicted humor scores will be sent to:
+../outputs/D4/
+
 # Deliverable 3
 
 To Run:
