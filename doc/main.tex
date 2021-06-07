@@ -32,6 +32,9 @@ The primary task of this project is to implement a regression model to predict t
 
 The adaptation task we plan to complete is to apply a similar model, trained on both the original and edited headlines referenced above, to tweets. The goal is to predict the humor content of tweets according to the same scale and, by employing a time-series clustering algorithm, explore the correlation of the frequency of humorous posts on social media to certain periods of time.
 
+\section{Approach}
+This project uses a single-regression, pre-trained BERT (Bidirectional Encoder Representations from Transformers) model. The model is fine-tuned on our headline data and evaluated as a single-regression task with RMSE loss. The availability of external GPUs allows us to fine-tune BERT itself. The model uses raw-sentence embeddings as input which are then tokenized using BertTokenzer.
+
 \section{System Overview}
 
 We have chosen to interpret the primary task as a regression problem, using a bidirectional encoder representation from transformers (BERT) model to predict the humor content of edited headlines.
@@ -74,9 +77,38 @@ As shown, the best result we have obtained from this initial run is from 2 epoch
 
 From this initial phase, we aim to explore methods for fine-tuning BERT, as well as the potential of expanding our approach from single regression to multiple regression. In a similar task using a multi-lingual data set, the highest performing model makes use of a Gradient Boosted Layer on top of BERT \cite{Ismailov2019HumorAB}. This could be a place of further exploration for improving performance.
 
+For our primary task, our BERT model performs impressively well, only butting up against the baseline.
+
+\section{System Improvement}
+We have explored possibilities for the improvement of BERT, such as the use of a Conditional Random Field and/or a Feed-Forward Neural Network, used output from the BERT model as input for the FFNN, and adjusted five parameters along three values each to measure the improvements.
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+RMSE & Epochs & Batch size & Learning Rt & Dropout Rt & Hid. Layers \\
+\hline
+0.56156 & 8 & 4 & 2E-4 & 0.4 & 2 \\
+0.5634 & 8 & 4 & 2E-4 & 0.4 & 1 \\
+0.56541 & 4 & 8 & 2E-4 & 0.2 & 2 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Adaptation Task}
+In the making of this program, we obtained the top 1,000 posts from twelve subreddits, six humorous and the other six non-humorous, normalized the upvote scores to the range from 0.0 to 3.0, and calculated the Spearman correlation of predicted humor and upvote score for each subreddit. The prediction we made was that there would be a stronger correlation in humorous subredits than in non-humorous ones - case in point, the Spearman correlation for r/dadjokes was 0.001897, while that of r/worldnews was -0.034297.
+
+\section{Future Improvements}
+While our system is potent by itself, it is not perfect. The system could potentially benefit from human-valued annotations for reddit data, predictions for humor scores for additional reddit data (noisy labels), and a subsystem for feeding noisy-labeled reddit data back into the system for supplemental training.
+
 \section{Conclusion}
 
 With all our RMSE values being lower than the baseline value, our implementation model should be accurate enough as it is.
+
+\section{Works Cited}
+\begin{itemize}
+\item BERT paper: (Devlin et al., 2018) https://arxiv.org/pdf/1810.04805.pdf
+\item Aspect-based sentiment analysis - ideas from a similar task domain (Xu, et al., 2019) https://arxiv.org/pdf/1904.02232.pdf
+\item Winning Model for same task (Spanish Dataset) http://ceur-ws.org/Vol-2421/HAHA\_paper\_3.pdf
+\end{itemize}
 
 \bibliographystyle{acl_natbib}
 \bibliography{refs}
